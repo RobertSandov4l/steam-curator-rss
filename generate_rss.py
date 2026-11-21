@@ -39,10 +39,6 @@ def title_from_url(url: str) -> str:
 
 
 def unwrap_steam_external_url(href: str) -> str:
-    """
-    Si el enlace pasa por steamcommunity.com/linkfilter/?u=..., extrae la URL real.
-    Devuelve la URL externa limpia si es válida, o cadena vacía si es enlace interno de tienda.
-    """
     if not href:
         return ""
     cleaned = href.strip()
@@ -125,6 +121,48 @@ def extract_single_review_data(link_tag) -> tuple[str, str]:
     return " ".join(parts).strip(), ext_link
 
 
+def clean_review_quote(raw_text: str) -> str:
+    quotes = re.findall(r'["“]([^"”]{10,})["”]', raw_text)
+    if quotes:
+        best_quote = max(quotes, key=len)
+        return " ".join(best_quote.split()).strip()
+
+    cleaned = raw_text
+    cleaned = re.sub(
+        r"El autor de la reseña recibió este producto de forma gratuita.*$",
+        "",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+    cleaned = re.sub(
+        r"Leer la reseña completa\s*\[[^\]]*\]?",
+        "",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+    cleaned = re.sub(
+        r"-\d+%\s*\d+\s*%\s*de descuento\.\s*Normalmente cuesta[^,]*,\s*con descuento es\s*[^\s]+",
+        "",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+    cleaned = re.sub(
+        r"#steam_curator_(?:notrecommended|informative|recommended)",
+        "",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+    cleaned = re.sub(
+        r"\b(?:Not Recommended|No recomendado|Informational|Informativo|Recommended|Recomendado)\b",
+        "",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+    cleaned = re.sub(r"\bFree to Play\b", "", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip(" -|")
+    return cleaned
+
+
 def detect_verdict(text: str) -> str:
     lowered = text.lower()
     if "#steam_curator_notrecommended" in lowered or re.search(
@@ -166,13 +204,17 @@ def parse_recommendations(curator_id: str, html_fragment: str) -> list[dict]:
         if not game_title:
             game_title = title_from_url(raw_href)
 
-        review_text, ext_link = extract_single_review_data(link_tag)
-        if ext_link:
-            description = f"{review_text} | Reseña completa: {ext_link}".strip(" |")
-        else:
-            description = review_text
+        raw_review_text, ext_link = extract_single_review_data(link_tag)
+        verdict = detect_verdict(raw_review_text)
+        quote = clean_review_quote(raw_review_text)
 
-        verdict = detect_verdict(review_text)
+        if ext_link:
+            host = urllib.parse.urlparse(ext_link).netloc.lower().removeprefix("www.")
+            label = "Juego Hispano" if "juegohispano.com" in host else (host or "Enlace externo")
+            description = f"{quote}\n\nReseña completa: [{label}]({ext_link})".strip()
+        else:
+            description = quote
+
         title_with_verdict = f"[{verdict}] {game_title}" if verdict else game_title
         guid = f"steam-curator-{curator_id}-{re.sub(r'[^a-zA-Z0-9_-]+', '-', raw_href)}"
 
