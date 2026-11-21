@@ -2,6 +2,7 @@ import email.utils
 import json
 import os
 import re
+import urllib.parse
 import urllib.request
 from xml.sax.saxutils import escape
 from bs4 import BeautifulSoup
@@ -28,28 +29,45 @@ def fetch_curator_html(curator_id: str, count: int = 15) -> str:
     return payload.get("results_html", "")
 
 
+def title_from_url(url: str) -> str:
+    parsed = urllib.parse.urlparse(url)
+    parts = [p for p in parsed.path.split("/") if p]
+    # Ejemplo: /app/3886530/Westlanders -> parts = ['app', '3886530', 'Westlanders']
+    if len(parts) >= 3 and parts[0] in ("app", "bundle", "sub"):
+        slug = urllib.parse.unquote(parts[2]).replace("_", " ").replace("-", " ")
+        return " ".join(slug.split())
+    return "Título de Steam"
+
+
+def find_best_container(link_tag):
+    current = link_tag.parent
+    best = current
+    best_len = len(" ".join(current.get_text(" ", strip=True).split())) if current else 0
+
+    for _ in range(5):
+        if current is None or current.name in ("[document]", "body", "html"):
+            break
+        txt = " ".join(current.get_text(" ", strip=True).split())
+        if len(txt) > best_len:
+            best = current
+            best_len = len(txt)
+        # Evitar tomar todo el contenedor padre de múltiples reseñas
+        if len(current.select("a[href*='/app/'], a[href*='/bundle/'], a[href*='/sub/']")) > 1:
+            break
+        current = current.parent
+
+    return best
+
+
 def parse_recommendations(curator_id: str, html_fragment: str) -> list[dict]:
     soup = BeautifulSoup(html_fragment, "html.parser")
     items = []
 
-    candidates = soup.select(".recommendation_row")
-    if not candidates:
-        candidates = [
-            el.find_parent("div")
-            for el in soup.select("a[href*='/app/'], a[href*='/bundle/'], a[href*='/sub/']")
-            if el.find_parent("div")
-        ]
-
+    link_tags = soup.select("a[href*='/app/'], a[href*='/bundle/'], a[href*='/sub/']")
     seen_links = set()
     now_rfc2822 = email.utils.formatdate(usegmt=True)
 
-    for block in candidates:
-        if block is None:
-            continue
-        link_tag = block.select_one("a[href*='/app/'], a[href*='/bundle/'], a[href*='/sub/']")
-        if not link_tag:
-            continue
-
+    for link_tag in link_tags:
         raw_href = link_tag.get("href", "").split("?")[0].strip()
         if not raw_href or raw_href in seen_links:
             continue
@@ -57,13 +75,26 @@ def parse_recommendations(curator_id: str, html_fragment: str) -> list[dict]:
 
         game_title = " ".join(link_tag.get_text(" ", strip=True).split())
         if not game_title:
-            img_tag = block.select_one("img[alt]")
-            game_title = img_tag["alt"].strip() if img_tag else "Título de Steam"
+            img_tag = link_tag.select_one("img[alt]") or (
+                link_tag.parent.select_one("img[alt]") if link_tag.parent else None
+            )
+            if img_tag and img_tag.get("alt", "").strip():
+                game_title = img_tag["alt"].strip()
+        if not game_title:
+            game_title = title_from_url(raw_href)
 
-        full_text = " ".join(block.get_text(" ", strip=True).split())
+        container = find_best_container(link_tag)
+        full_text = " ".join(container.get_text(" ", strip=True).split()) if container else ""
 
         verdict = ""
-        for label in ("Recommended", "Not Recommended", "Informational", "Recomendado", "No recomendado", "Informativo"):
+        for label in (
+            "Recommended",
+            "Not Recommended",
+            "Informational",
+            "Recomendado",
+            "No recomendado",
+            "Informativo",
+        ):
             if re.search(rf"\b{re.escape(label)}\b", full_text, flags=re.IGNORECASE):
                 verdict = label
                 break
