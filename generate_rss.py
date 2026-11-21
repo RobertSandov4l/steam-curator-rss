@@ -38,15 +38,33 @@ def title_from_url(url: str) -> str:
     return "Título de Steam"
 
 
-def _is_valid_external_url(href: str) -> bool:
+def unwrap_steam_external_url(href: str) -> str:
+    """
+    Si el enlace pasa por steamcommunity.com/linkfilter/?u=..., extrae la URL real.
+    Devuelve la URL externa limpia si es válida, o cadena vacía si es enlace interno de tienda.
+    """
     if not href:
-        return False
+        return ""
     cleaned = href.strip()
     if cleaned.startswith("#") or cleaned.lower().startswith("javascript:"):
-        return False
-    if "store.steampowered.com" in cleaned or "steamcommunity.com" in cleaned:
-        return False
-    return cleaned.startswith("http://") or cleaned.startswith("https://")
+        return ""
+
+    parsed = urllib.parse.urlparse(cleaned)
+    host = parsed.netloc.lower()
+
+    if "steamcommunity.com" in host and "/linkfilter" in parsed.path.lower():
+        qs = urllib.parse.parse_qs(parsed.query)
+        target = qs.get("u") or qs.get("url")
+        if target and target[0]:
+            return urllib.parse.unquote(target[0]).strip()
+        return ""
+
+    if "store.steampowered.com" in host or "steamcommunity.com" in host:
+        return ""
+
+    if cleaned.startswith("http://") or cleaned.startswith("https://"):
+        return cleaned
+    return ""
 
 
 def _find_external_link_in_node(node, game_link_tag) -> str:
@@ -55,17 +73,13 @@ def _find_external_link_in_node(node, game_link_tag) -> str:
     for a in node.select("a[href]"):
         if a is game_link_tag:
             continue
-        href = (a.get("href") or "").strip()
-        if _is_valid_external_url(href):
-            return href
+        real_url = unwrap_steam_external_url(a.get("href") or "")
+        if real_url:
+            return real_url
     return ""
 
 
 def extract_single_review_data(link_tag) -> tuple[str, str]:
-    """
-    Devuelve (texto_de_la_reseña, enlace_externo) intentando aislar únicamente
-    los datos pertenecientes al juego de `link_tag`.
-    """
     single_container = None
     cur = link_tag.parent
     for _ in range(5):
@@ -111,6 +125,23 @@ def extract_single_review_data(link_tag) -> tuple[str, str]:
     return " ".join(parts).strip(), ext_link
 
 
+def detect_verdict(text: str) -> str:
+    lowered = text.lower()
+    if "#steam_curator_notrecommended" in lowered or re.search(
+        r"\b(not recommended|no recomendado)\b", lowered
+    ):
+        return "No recomendado"
+    if "#steam_curator_informative" in lowered or re.search(
+        r"\b(informational|informativo)\b", lowered
+    ):
+        return "Informativo"
+    if "#steam_curator_recommended" in lowered or re.search(
+        r"\b(recommended|recomendado)\b", lowered
+    ):
+        return "Recomendado"
+    return ""
+
+
 def parse_recommendations(curator_id: str, html_fragment: str) -> list[dict]:
     soup = BeautifulSoup(html_fragment, "html.parser")
     items = []
@@ -137,23 +168,11 @@ def parse_recommendations(curator_id: str, html_fragment: str) -> list[dict]:
 
         review_text, ext_link = extract_single_review_data(link_tag)
         if ext_link:
-            description = f"{review_text} | Enlace externo: {ext_link}".strip(" |")
+            description = f"{review_text} | Reseña completa: {ext_link}".strip(" |")
         else:
             description = review_text
 
-        verdict = ""
-        for label in (
-            "Recommended",
-            "Not Recommended",
-            "Informational",
-            "Recomendado",
-            "No recomendado",
-            "Informativo",
-        ):
-            if re.search(rf"\b{re.escape(label)}\b", review_text, flags=re.IGNORECASE):
-                verdict = label
-                break
-
+        verdict = detect_verdict(review_text)
         title_with_verdict = f"[{verdict}] {game_title}" if verdict else game_title
         guid = f"steam-curator-{curator_id}-{re.sub(r'[^a-zA-Z0-9_-]+', '-', raw_href)}"
 
