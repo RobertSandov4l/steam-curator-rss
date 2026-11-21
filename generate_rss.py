@@ -32,31 +32,53 @@ def fetch_curator_html(curator_id: str, count: int = 15) -> str:
 def title_from_url(url: str) -> str:
     parsed = urllib.parse.urlparse(url)
     parts = [p for p in parsed.path.split("/") if p]
-    # Ejemplo: /app/3886530/Westlanders -> parts = ['app', '3886530', 'Westlanders']
     if len(parts) >= 3 and parts[0] in ("app", "bundle", "sub"):
         slug = urllib.parse.unquote(parts[2]).replace("_", " ").replace("-", " ")
         return " ".join(slug.split())
     return "Título de Steam"
 
 
-def find_best_container(link_tag):
-    current = link_tag.parent
-    best = current
-    best_len = len(" ".join(current.get_text(" ", strip=True).split())) if current else 0
-
+def extract_single_review_text(link_tag) -> str:
+    """
+    Intenta obtener únicamente el texto correspondiente al juego de `link_tag`,
+    evitando mezclar reseñas de otros juegos del mismo listado.
+    """
+    # 1. Subir solo mientras el contenedor tenga exactamente 1 enlace de juego (/app/, /bundle/, /sub/)
+    single_container = None
+    cur = link_tag.parent
     for _ in range(5):
-        if current is None or current.name in ("[document]", "body", "html"):
+        if cur is None or cur.name in ("[document]", "body", "html"):
             break
-        txt = " ".join(current.get_text(" ", strip=True).split())
-        if len(txt) > best_len:
-            best = current
-            best_len = len(txt)
-        # Evitar tomar todo el contenedor padre de múltiples reseñas
-        if len(current.select("a[href*='/app/'], a[href*='/bundle/'], a[href*='/sub/']")) > 1:
+        game_links = cur.select("a[href*='/app/'], a[href*='/bundle/'], a[href*='/sub/']")
+        if len(game_links) == 1:
+            single_container = cur
+        elif len(game_links) > 1:
             break
-        current = current.parent
+        cur = cur.parent
 
-    return best
+    if single_container is not None:
+        text = " ".join(single_container.get_text(" ", strip=True).split())
+        if len(text) > 25:
+            return text
+
+    # 2. Si todos los juegos están en una misma lista/tabla plana, recorrer hermanos siguientes
+    # hasta encontrar el próximo enlace de juego (/app/, /bundle/, /sub/)
+    parts = []
+    start_node = link_tag.parent if link_tag.parent and link_tag.parent.name in ("td", "div", "li", "span") else link_tag
+    sib = start_node.find_next_sibling()
+    steps = 0
+    while sib is not None and steps < 12:
+        steps += 1
+        if getattr(sib, "select_one", None) and sib.select_one("a[href*='/app/'], a[href*='/bundle/'], a[href*='/sub/']"):
+            break
+        sib_text = " ".join(sib.get_text(" ", strip=True).split())
+        if sib_text:
+            parts.append(sib_text)
+        if "Leer la reseña completa" in sib_text:
+            break
+        sib = sib.find_next_sibling()
+
+    return " ".join(parts).strip()
 
 
 def parse_recommendations(curator_id: str, html_fragment: str) -> list[dict]:
@@ -83,8 +105,7 @@ def parse_recommendations(curator_id: str, html_fragment: str) -> list[dict]:
         if not game_title:
             game_title = title_from_url(raw_href)
 
-        container = find_best_container(link_tag)
-        full_text = " ".join(container.get_text(" ", strip=True).split()) if container else ""
+        review_text = extract_single_review_text(link_tag)
 
         verdict = ""
         for label in (
@@ -95,7 +116,7 @@ def parse_recommendations(curator_id: str, html_fragment: str) -> list[dict]:
             "No recomendado",
             "Informativo",
         ):
-            if re.search(rf"\b{re.escape(label)}\b", full_text, flags=re.IGNORECASE):
+            if re.search(rf"\b{re.escape(label)}\b", review_text, flags=re.IGNORECASE):
                 verdict = label
                 break
 
@@ -107,7 +128,7 @@ def parse_recommendations(curator_id: str, html_fragment: str) -> list[dict]:
                 "title": title_with_verdict,
                 "link": raw_href,
                 "guid": guid,
-                "description": full_text,
+                "description": review_text,
                 "pub_date": now_rfc2822,
             }
         )
