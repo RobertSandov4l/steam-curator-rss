@@ -1,1 +1,41 @@
+name: Update Steam Curator RSS Feeds
 
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-rss:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip && pip install beautifulsoup4
+
+      - name: Generate RSS XML files
+        env:
+          CURATOR_IDS: ${{ secrets.CURATOR_IDS }}
+        run: python generate_rss.py
+
+      - name: Commit and push updated XML feeds
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add feed_*.xml
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update steam curator rss feeds"
+            git push
+          else
+            echo "No changes in RSS feeds."
+          fi
