@@ -121,11 +121,43 @@ def extract_single_review_data(link_tag) -> tuple[str, str]:
     return " ".join(parts).strip(), ext_link
 
 
+def deduplicate_text(text: str) -> str:
+    """Elimina repeticiones exactas o consecutivas de texto/oraciones."""
+    normalized = " ".join(text.split()).strip()
+    if not normalized:
+        return ""
+
+    # Si el texto completo está duplicado pegado (ej. "Hola. Mundo. Hola. Mundo.")
+    half = len(normalized) // 2
+    for offset in range(-15, 16):
+        idx = half + offset
+        if 0 < idx < len(normalized):
+            left = normalized[:idx].strip()
+            right = normalized[idx:].strip()
+            if left and right and left == right:
+                return left
+
+    # Filtrar oraciones repetidas conservando orden
+    sentences = re.split(r"(?<=[.!?…])\s+", normalized)
+    seen = set()
+    unique_sentences = []
+    for s in sentences:
+        s_clean = s.strip()
+        if not s_clean:
+            continue
+        key = s_clean.lower()
+        if key not in seen:
+            seen.add(key)
+            unique_sentences.append(s_clean)
+
+    return " ".join(unique_sentences).strip() if unique_sentences else normalized
+
+
 def clean_review_quote(raw_text: str) -> str:
     quotes = re.findall(r'["“]([^"”]{10,})["”]', raw_text)
     if quotes:
         best_quote = max(quotes, key=len)
-        return " ".join(best_quote.split()).strip()
+        return deduplicate_text(best_quote)
 
     cleaned = raw_text
     cleaned = re.sub(
@@ -160,7 +192,7 @@ def clean_review_quote(raw_text: str) -> str:
     )
     cleaned = re.sub(r"\bFree to Play\b", "", cleaned, flags=re.IGNORECASE)
     cleaned = re.sub(r"\s+", " ", cleaned).strip(" -|")
-    return cleaned
+    return deduplicate_text(cleaned)
 
 
 def detect_verdict(text: str) -> str:
