@@ -1,4 +1,5 @@
 import email.utils
+import hashlib
 import json
 import os
 import re
@@ -8,7 +9,7 @@ from xml.sax.saxutils import escape
 from bs4 import BeautifulSoup
 
 
-def fetch_curator_html(curator_id: str, count: int = 15) -> str:
+def fetch_curator_html(curator_id: str, count: int = 30) -> str:
     url = (
         f"https://store.steampowered.com/curator/{curator_id}/"
         f"ajaxgetcuratorrecommendations/render/?query=&start=0&count={count}"
@@ -209,7 +210,25 @@ def detect_verdict(text: str) -> str:
     return ""
 
 
-def parse_recommendations(curator_id: str, html_fragment: str) -> list[dict]:
+def load_history(curator_id: str) -> dict:
+    path = f"history_{curator_id}.json"
+    if not os.path.exists(path):
+        return {}
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return data if isinstance(data, dict) else {}
+    except Exception:
+        return {}
+
+
+def save_history(curator_id: str, history: dict) -> None:
+    path = f"history_{curator_id}.json"
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(history, f, ensure_ascii=False, indent=2)
+
+
+def parse_recommendations(curator_id: str, html_fragment: str, history: dict) -> list[dict]:
     soup = BeautifulSoup(html_fragment, "html.parser")
     items = []
 
@@ -237,23 +256,48 @@ def parse_recommendations(curator_id: str, html_fragment: str) -> list[dict]:
         verdict = detect_verdict(raw_review_text)
         quote = clean_review_quote(raw_review_text)
 
-        if ext_link:
-            host = urllib.parse.urlparse(ext_link).netloc.lower().removeprefix("www.")
-            label = "Juego Hispano" if "juegohispano.com" in host else (host or "Enlace externo")
-            description = f"{quote}\n\n[{label}]({ext_link})".strip()
-        else:
-            description = quote
-
         title_with_verdict = f"[{verdict}] {game_title}" if verdict else game_title
-        guid = f"steam-curator-{curator_id}-{re.sub(r'[^a-zA-Z0-9_-]+', '-', raw_href)}"
+
+        fingerprint_raw = f"{verdict}|{quote}|{ext_link}".encode("utf-8")
+        content_hash = hashlib.sha1(fingerprint_raw).hexdigest()[:10]
+        guid = (
+            f"steam-curator-{curator_id}-"
+            f"{re.sub(r'[^a-zA-Z0-9_-]+', '-', raw_href)}-{content_hash}"
+        )
+
+        prev = history.get(raw_href)
+        if prev and prev.get("content_hash") == content_hash:
+            pub_date = prev.get("pub_date", now_rfc2822)
+            first_seen = prev.get("first_seen", now_rfc2822)
+            last_updated = prev.get("last_updated", pub_date)
+        else:
+            pub_date = now_rfc2822
+            first_seen = prev.get("first_seen", now_rfc2822) if prev else now_rfc2822
+            last_updated = now_rfc2822
+
+        history[raw_href] = {
+            "curator_id": curator_id,
+            "game_title": game_title,
+            "title": title_with_verdict,
+            "verdict": verdict,
+            "link": raw_href,
+            "description": quote,
+            "comments": ext_link,
+            "content_hash": content_hash,
+            "guid": guid,
+            "first_seen": first_seen,
+            "last_updated": last_updated,
+            "pub_date": pub_date,
+        }
 
         items.append(
             {
                 "title": title_with_verdict,
                 "link": raw_href,
                 "guid": guid,
-                "description": description,
-                "pub_date": now_rfc2822,
+                "description": quote,
+                "comments": ext_link,
+                "pub_date": pub_date,
             }
         )
 
@@ -265,13 +309,18 @@ def build_rss_xml(
 ) -> str:
     xml_items = []
     for item in items:
+        comments_line = (
+            f"\n      <comments>{escape(item['comments'])}</comments>"
+            if item.get("comments")
+            else ""
+        )
         xml_items.append(
             f"""    <item>
       <title>{escape(item['title'])}</title>
       <link>{escape(item['link'])}</link>
       <guid isPermaLink="false">{escape(item['guid'])}</guid>
       <pubDate>{escape(item['pub_date'])}</pubDate>
-      <description>{escape(item['description'])}</description>
+      <description>{escape(item['description'])}</description>{comments_line}
     </item>"""
         )
 
@@ -294,8 +343,10 @@ def main() -> None:
         raise RuntimeError("La variable de entorno CURATOR_IDS está vacía.")
 
     for cid in curator_ids:
-        html_fragment = fetch_curator_html(cid, count=15)
-        items = parse_recommendations(cid, html_fragment)
+        history = load_history(cid)
+        html_fragment = fetch_curator_html(cid, count=30)
+        items = parse_recommendations(cid, html_fragment, history)
+        save_history(cid, history)
 
         single_xml = build_rss_xml(
             channel_title=f"Steam Curator {cid}",
