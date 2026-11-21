@@ -38,12 +38,34 @@ def title_from_url(url: str) -> str:
     return "Título de Steam"
 
 
-def extract_single_review_text(link_tag) -> str:
+def _is_valid_external_url(href: str) -> bool:
+    if not href:
+        return False
+    cleaned = href.strip()
+    if cleaned.startswith("#") or cleaned.lower().startswith("javascript:"):
+        return False
+    if "store.steampowered.com" in cleaned or "steamcommunity.com" in cleaned:
+        return False
+    return cleaned.startswith("http://") or cleaned.startswith("https://")
+
+
+def _find_external_link_in_node(node, game_link_tag) -> str:
+    if node is None or not getattr(node, "select", None):
+        return ""
+    for a in node.select("a[href]"):
+        if a is game_link_tag:
+            continue
+        href = (a.get("href") or "").strip()
+        if _is_valid_external_url(href):
+            return href
+    return ""
+
+
+def extract_single_review_data(link_tag) -> tuple[str, str]:
     """
-    Intenta obtener únicamente el texto correspondiente al juego de `link_tag`,
-    evitando mezclar reseñas de otros juegos del mismo listado.
+    Devuelve (texto_de_la_reseña, enlace_externo) intentando aislar únicamente
+    los datos pertenecientes al juego de `link_tag`.
     """
-    # 1. Subir solo mientras el contenedor tenga exactamente 1 enlace de juego (/app/, /bundle/, /sub/)
     single_container = None
     cur = link_tag.parent
     for _ in range(5):
@@ -58,27 +80,35 @@ def extract_single_review_text(link_tag) -> str:
 
     if single_container is not None:
         text = " ".join(single_container.get_text(" ", strip=True).split())
+        ext_link = _find_external_link_in_node(single_container, link_tag)
         if len(text) > 25:
-            return text
+            return text, ext_link
 
-    # 2. Si todos los juegos están en una misma lista/tabla plana, recorrer hermanos siguientes
-    # hasta encontrar el próximo enlace de juego (/app/, /bundle/, /sub/)
     parts = []
-    start_node = link_tag.parent if link_tag.parent and link_tag.parent.name in ("td", "div", "li", "span") else link_tag
+    ext_link = _find_external_link_in_node(link_tag.parent, link_tag)
+    start_node = (
+        link_tag.parent
+        if link_tag.parent and link_tag.parent.name in ("td", "div", "li", "span")
+        else link_tag
+    )
     sib = start_node.find_next_sibling()
     steps = 0
     while sib is not None and steps < 12:
         steps += 1
-        if getattr(sib, "select_one", None) and sib.select_one("a[href*='/app/'], a[href*='/bundle/'], a[href*='/sub/']"):
+        if getattr(sib, "select_one", None) and sib.select_one(
+            "a[href*='/app/'], a[href*='/bundle/'], a[href*='/sub/']"
+        ):
             break
         sib_text = " ".join(sib.get_text(" ", strip=True).split())
         if sib_text:
             parts.append(sib_text)
+        if not ext_link:
+            ext_link = _find_external_link_in_node(sib, link_tag)
         if "Leer la reseña completa" in sib_text:
             break
         sib = sib.find_next_sibling()
 
-    return " ".join(parts).strip()
+    return " ".join(parts).strip(), ext_link
 
 
 def parse_recommendations(curator_id: str, html_fragment: str) -> list[dict]:
@@ -105,7 +135,11 @@ def parse_recommendations(curator_id: str, html_fragment: str) -> list[dict]:
         if not game_title:
             game_title = title_from_url(raw_href)
 
-        review_text = extract_single_review_text(link_tag)
+        review_text, ext_link = extract_single_review_data(link_tag)
+        if ext_link:
+            description = f"{review_text} | Enlace externo: {ext_link}".strip(" |")
+        else:
+            description = review_text
 
         verdict = ""
         for label in (
@@ -128,7 +162,7 @@ def parse_recommendations(curator_id: str, html_fragment: str) -> list[dict]:
                 "title": title_with_verdict,
                 "link": raw_href,
                 "guid": guid,
-                "description": review_text,
+                "description": description,
                 "pub_date": now_rfc2822,
             }
         )
@@ -136,7 +170,9 @@ def parse_recommendations(curator_id: str, html_fragment: str) -> list[dict]:
     return items
 
 
-def build_rss_xml(channel_title: str, channel_link: str, channel_desc: str, items: list[dict]) -> str:
+def build_rss_xml(
+    channel_title: str, channel_link: str, channel_desc: str, items: list[dict]
+) -> str:
     xml_items = []
     for item in items:
         xml_items.append(
