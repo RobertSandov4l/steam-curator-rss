@@ -122,12 +122,10 @@ def extract_single_review_data(link_tag) -> tuple[str, str]:
 
 
 def deduplicate_text(text: str) -> str:
-    """Elimina repeticiones exactas o consecutivas de texto/oraciones."""
     normalized = " ".join(text.split()).strip()
     if not normalized:
         return ""
 
-    # Si el texto completo está duplicado pegado (ej. "Hola. Mundo. Hola. Mundo.")
     half = len(normalized) // 2
     for offset in range(-15, 16):
         idx = half + offset
@@ -137,7 +135,6 @@ def deduplicate_text(text: str) -> str:
             if left and right and left == right:
                 return left
 
-    # Filtrar oraciones repetidas conservando orden
     sentences = re.split(r"(?<=[.!?…])\s+", normalized)
     seen = set()
     unique_sentences = []
@@ -243,7 +240,7 @@ def parse_recommendations(curator_id: str, html_fragment: str) -> list[dict]:
         if ext_link:
             host = urllib.parse.urlparse(ext_link).netloc.lower().removeprefix("www.")
             label = "Juego Hispano" if "juegohispano.com" in host else (host or "Enlace externo")
-            description = f"{quote}\n\nReseña completa: [{label}]({ext_link})".strip()
+            description = f"{quote}\n\n[{label}]({ext_link})".strip()
         else:
             description = quote
 
