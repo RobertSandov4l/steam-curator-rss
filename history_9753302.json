@@ -544,5 +544,19 @@
     "first_seen": "Sun, 22 Nov 2026 02:40:19 GMT",
     "last_updated": "Sun, 22 Nov 2026 02:40:19 GMT",
     "pub_date": "Sun, 22 Nov 2026 02:40:19 GMT"
+  },
+  "https://store.steampowered.com/app/5475450/Lias_Rolling_Club/": {
+    "curator_id": "9753302",
+    "game_title": "Lias Rolling Club",
+    "title": "[Recomendado] Lias Rolling Club",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/5475450/Lias_Rolling_Club/",
+    "description": "Un juego con mucho humor, referencias y porros de todo tipo y color. Lia´s Rolling club maneja la progresión y la suerte de una forma única, si buscas un juego para pasar un buen rato, es el indicado",
+    "comments": "",
+    "content_hash": "97c31b88b6",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-5475450-Lias_Rolling_Club--97c31b88b6",
+    "first_seen": "Sun, 22 Nov 2026 18:40:18 GMT",
+    "last_updated": "Sun, 22 Nov 2026 18:40:18 GMT",
+    "pub_date": "Sun, 22 Nov 2026 18:40:18 GMT"
   }
 }

@@ -5,6 +5,13 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Recomendado] Lias Rolling Club</title>
+      <link>https://store.steampowered.com/app/5475450/Lias_Rolling_Club/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-5475450-Lias_Rolling_Club--97c31b88b6</guid>
+      <pubDate>Sun, 22 Nov 2026 18:40:18 GMT</pubDate>
+      <description>Un juego con mucho humor, referencias y porros de todo tipo y color. Lia´s Rolling club maneja la progresión y la suerte de una forma única, si buscas un juego para pasar un buen rato, es el indicado</description>
+    </item>
+    <item>
       <title>[Recomendado] Calculate It</title>
       <link>https://store.steampowered.com/app/3043740/Calculate_It/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3043740-Calculate_It--406e0b95f5</guid>
@@ -232,14 +239,6 @@
       <pubDate>Sat, 21 Nov 2026 21:38:27 GMT</pubDate>
       <description>Aventura detectivesca noir en 16 bits donde cruzas pistas y testimonios para desenmascarar a un asesino serial. Gran historia y deducción, pero solo disponible en inglés y sueco.</description>
       <comments>https://juegohispano.com/mensaje/resena-next-of-kin-epiphany</comments>
-    </item>
-    <item>
-      <title>[Recomendado] Pardon My French Toast</title>
-      <link>https://store.steampowered.com/app/3407360/Pardon_My_French_Toast/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3407360-Pardon_My_French_Toast--1107081f36</guid>
-      <pubDate>Sat, 21 Nov 2026 21:38:27 GMT</pubDate>
-      <description>Plataformas 3D colorido y familiar sin combate, enfocado en explorar, resolver puzles y recolectar dulces. Encantador y accesible, aunque su cámara fija complica algunos saltos.</description>
-      <comments>https://juegohispano.com/mensaje/resena-pardon-my-french-toast</comments>
     </item>
   </channel>
 </rss>
