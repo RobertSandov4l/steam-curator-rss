@@ -90,12 +90,12 @@
     "verdict": "Recomendado",
     "link": "https://store.steampowered.com/app/2087540/Escape_from_Playtime/",
     "description": "Siempre hay un amigo que se separa del grupo, y aquí sale caro. Juguetes adorables y extracción cooperativa, en acceso anticipado. Falta variedad: una sola zona y tareas repetitivas.",
-    "comments": "https://app.clickup.com/t/90121972177/1amkccgbada?comment=1500400000037333",
-    "content_hash": "de1edf4214",
-    "guid": "steam-curator-9753302-https-store-steampowered-com-app-2087540-Escape_from_Playtime--de1edf4214",
+    "comments": "https://juegohispano.com/mensaje/resena-escape-from-playtime",
+    "content_hash": "5f5f6084e8",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-2087540-Escape_from_Playtime--5f5f6084e8",
     "first_seen": "Sat, 21 Nov 2026 21:38:27 GMT",
-    "last_updated": "Sat, 21 Nov 2026 21:38:27 GMT",
-    "pub_date": "Sat, 21 Nov 2026 21:38:27 GMT"
+    "last_updated": "Sun, 22 Nov 2026 01:12:52 GMT",
+    "pub_date": "Sun, 22 Nov 2026 01:12:52 GMT"
   },
   "https://store.steampowered.com/app/5398160/Gopher_It_Office_Intern_Simulator/": {
     "curator_id": "9753302",
@@ -418,5 +418,47 @@
     "first_seen": "Sat, 21 Nov 2026 21:38:27 GMT",
     "last_updated": "Sat, 21 Nov 2026 21:38:27 GMT",
     "pub_date": "Sat, 21 Nov 2026 21:38:27 GMT"
+  },
+  "https://store.steampowered.com/app/5036970/AFKTower/": {
+    "curator_id": "9753302",
+    "game_title": "AFKTower",
+    "title": "[Recomendado] AFKTower",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/5036970/AFKTower/",
+    "description": "Idle que no castiga a los principiantes: equipamiento, mejoras accesibles y enemigos algo débiles. Necesitarás horas de juego para llegar a la cima. Mercado de Steam activo y sin devaluar.",
+    "comments": "",
+    "content_hash": "75b6220074",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-5036970-AFKTower--75b6220074",
+    "first_seen": "Sun, 22 Nov 2026 01:12:52 GMT",
+    "last_updated": "Sun, 22 Nov 2026 01:12:52 GMT",
+    "pub_date": "Sun, 22 Nov 2026 01:12:52 GMT"
+  },
+  "https://store.steampowered.com/app/4644170/AMPANIC/": {
+    "curator_id": "9753302",
+    "game_title": "AMPANIC",
+    "title": "[Recomendado] AMPANIC",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/4644170/AMPANIC/",
+    "description": "Gestión rápida y puntería en una tienda de pociones con clientes de efectos especiales y hechizos. Muy entretenido, con buen pixel art y español, pese a detalles técnicos menores.",
+    "comments": "https://juegohispano.com/mensaje/resena-ampanic",
+    "content_hash": "2e9658bbe6",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-4644170-AMPANIC--2e9658bbe6",
+    "first_seen": "Sun, 22 Nov 2026 01:12:52 GMT",
+    "last_updated": "Sun, 22 Nov 2026 01:12:52 GMT",
+    "pub_date": "Sun, 22 Nov 2026 01:12:52 GMT"
+  },
+  "https://store.steampowered.com/app/3544390/Air_Hares/": {
+    "curator_id": "9753302",
+    "game_title": "Air Hares",
+    "title": "[Informativo] Air Hares",
+    "verdict": "Informativo",
+    "link": "https://store.steampowered.com/app/3544390/Air_Hares/",
+    "description": "Shoot'em up vertical agrícola con avión, semillas y agua frente a aves rapaces, con opción cooperativa. Vistoso y original, pero caótico y repetitivo al apuntar y sembrar en solitario.",
+    "comments": "https://juegohispano.com/mensaje/resena-air-hares",
+    "content_hash": "54acceb619",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-3544390-Air_Hares--54acceb619",
+    "first_seen": "Sun, 22 Nov 2026 01:12:52 GMT",
+    "last_updated": "Sun, 22 Nov 2026 01:12:52 GMT",
+    "pub_date": "Sun, 22 Nov 2026 01:12:52 GMT"
   }
 }
