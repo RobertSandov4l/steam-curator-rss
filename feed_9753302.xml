@@ -5,6 +5,30 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Recomendado] Dreadline Express</title>
+      <link>https://store.steampowered.com/app/3327120/Dreadline_Express/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3327120-Dreadline_Express--c6047a50f4</guid>
+      <pubDate>Mon, 23 Nov 2026 19:50:19 GMT</pubDate>
+      <description>Terror psicológico e investigación en un tren con recuerdos en cartas, diálogos y misterio cósmico. Gran atmósfera y deducción, aunque el ritmo puede estancarse al combinar pistas.</description>
+      <comments>https://juegohispano.com/mensaje/resena-dreadline-express</comments>
+    </item>
+    <item>
+      <title>[Recomendado] Dominus Gladiatus</title>
+      <link>https://store.steampowered.com/app/3572090/Dominus_Gladiatus/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3572090-Dominus_Gladiatus--4971c70275</guid>
+      <pubDate>Mon, 23 Nov 2026 19:50:19 GMT</pubDate>
+      <description>Gestión táctica y auto-battler de gladiadores en Roma con torneos, mejoras y modo sandbox. Inmersivo y con gran sonido, aunque algo repetitivo con el tiempo.</description>
+      <comments>https://juegohispano.com/mensaje/resena-dominus-gladiatus</comments>
+    </item>
+    <item>
+      <title>[Recomendado] Hombre Perro Vuelta a la Carga</title>
+      <link>https://store.steampowered.com/app/4782240/Hombre_Perro_Vuelta_a_la_Carga/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4782240-Hombre_Perro_Vuelta_a_la_Carga--26b0b2b15d</guid>
+      <pubDate>Mon, 23 Nov 2026 19:50:19 GMT</pubDate>
+      <description>Plataformas 2D cómico de Dog Man con cambio de personajes, aliados, 60 niveles y humor infantil. Divertido y accesible, aunque con cooperativo limitado.</description>
+      <comments>https://juegohispano.com/mensaje/resena-dog-man-bark-in-action</comments>
+    </item>
+    <item>
       <title>[Recomendado] DEMONS NIGHT FEVER</title>
       <link>https://store.steampowered.com/app/3502620/DEMONS_NIGHT_FEVER/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3502620-DEMONS_NIGHT_FEVER--03bfbd4911</guid>
@@ -215,30 +239,6 @@
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-5532830-New_Age_War_Online--667f348f27</guid>
       <pubDate>Sat, 21 Nov 2026 21:38:27 GMT</pubDate>
       <description>Un shooter que promete más de lo que da por la baja optimización actual. La mira da saltos, se atraviesan paredes (aprovecha el bug para trepar estructuras/edificios) y el sonido rompe la inmersión.</description>
-    </item>
-    <item>
-      <title>[Recomendado] Spooky Ride</title>
-      <link>https://store.steampowered.com/app/4613790/Spooky_Ride/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4613790-Spooky_Ride--765d8e7f0a</guid>
-      <pubDate>Sat, 21 Nov 2026 21:38:27 GMT</pubDate>
-      <description>Aventura cooperativa de misterio y humor en bicicleta con enigmas, elementos sobrenaturales y hasta cuatro jugadores. Divertida en grupo, aunque con fallos visuales y bugs de física.</description>
-      <comments>https://juegohispano.com/mensaje/spooky-ride-resena-un-paseo-nada-tranquilo</comments>
-    </item>
-    <item>
-      <title>[Recomendado] Finals Week A chuletazo limpio</title>
-      <link>https://store.steampowered.com/app/4715160/Finals_Week_A_chuletazo_limpio/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4715160-Finals_Week_A_chuletazo_limpio--f20130200b</guid>
-      <pubDate>Sat, 21 Nov 2026 21:38:27 GMT</pubDate>
-      <description>Cooperativo de sigilo y humor donde copias en exámenes usando micrófono de proximidad sin que te oiga el profesor. Muy divertido con amigos, aunque algo repetitivo tras sus doce niveles.</description>
-      <comments>https://juegohispano.com/mensaje/resena-finals-week</comments>
-    </item>
-    <item>
-      <title>[Recomendado] Outbreak Dead City</title>
-      <link>https://store.steampowered.com/app/4762960/Outbreak_Dead_City/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4762960-Outbreak_Dead_City--7df6af8497</guid>
-      <pubDate>Sat, 21 Nov 2026 21:38:27 GMT</pubDate>
-      <description>Shooter y survival horror de zombis con mejoras de armas, tensión y buen rendimiento. Entretenido y directo, aunque con misiones poco intuitivas y menú básico.</description>
-      <comments>https://juegohispano.com/mensaje/resena-outbreak-dead-city</comments>
     </item>
   </channel>
 </rss>

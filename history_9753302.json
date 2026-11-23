@@ -670,5 +670,47 @@
     "first_seen": "Mon, 23 Nov 2026 19:40:23 GMT",
     "last_updated": "Mon, 23 Nov 2026 19:40:23 GMT",
     "pub_date": "Mon, 23 Nov 2026 19:40:23 GMT"
+  },
+  "https://store.steampowered.com/app/3327120/Dreadline_Express/": {
+    "curator_id": "9753302",
+    "game_title": "Dreadline Express",
+    "title": "[Recomendado] Dreadline Express",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/3327120/Dreadline_Express/",
+    "description": "Terror psicológico e investigación en un tren con recuerdos en cartas, diálogos y misterio cósmico. Gran atmósfera y deducción, aunque el ritmo puede estancarse al combinar pistas.",
+    "comments": "https://juegohispano.com/mensaje/resena-dreadline-express",
+    "content_hash": "c6047a50f4",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-3327120-Dreadline_Express--c6047a50f4",
+    "first_seen": "Mon, 23 Nov 2026 19:50:19 GMT",
+    "last_updated": "Mon, 23 Nov 2026 19:50:19 GMT",
+    "pub_date": "Mon, 23 Nov 2026 19:50:19 GMT"
+  },
+  "https://store.steampowered.com/app/3572090/Dominus_Gladiatus/": {
+    "curator_id": "9753302",
+    "game_title": "Dominus Gladiatus",
+    "title": "[Recomendado] Dominus Gladiatus",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/3572090/Dominus_Gladiatus/",
+    "description": "Gestión táctica y auto-battler de gladiadores en Roma con torneos, mejoras y modo sandbox. Inmersivo y con gran sonido, aunque algo repetitivo con el tiempo.",
+    "comments": "https://juegohispano.com/mensaje/resena-dominus-gladiatus",
+    "content_hash": "4971c70275",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-3572090-Dominus_Gladiatus--4971c70275",
+    "first_seen": "Mon, 23 Nov 2026 19:50:19 GMT",
+    "last_updated": "Mon, 23 Nov 2026 19:50:19 GMT",
+    "pub_date": "Mon, 23 Nov 2026 19:50:19 GMT"
+  },
+  "https://store.steampowered.com/app/4782240/Hombre_Perro_Vuelta_a_la_Carga/": {
+    "curator_id": "9753302",
+    "game_title": "Hombre Perro Vuelta a la Carga",
+    "title": "[Recomendado] Hombre Perro Vuelta a la Carga",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/4782240/Hombre_Perro_Vuelta_a_la_Carga/",
+    "description": "Plataformas 2D cómico de Dog Man con cambio de personajes, aliados, 60 niveles y humor infantil. Divertido y accesible, aunque con cooperativo limitado.",
+    "comments": "https://juegohispano.com/mensaje/resena-dog-man-bark-in-action",
+    "content_hash": "26b0b2b15d",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-4782240-Hombre_Perro_Vuelta_a_la_Carga--26b0b2b15d",
+    "first_seen": "Mon, 23 Nov 2026 19:50:19 GMT",
+    "last_updated": "Mon, 23 Nov 2026 19:50:19 GMT",
+    "pub_date": "Mon, 23 Nov 2026 19:50:19 GMT"
   }
 }
