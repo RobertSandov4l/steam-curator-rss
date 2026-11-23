@@ -5,6 +5,14 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Recomendado] Horripilant</title>
+      <link>https://store.steampowered.com/app/3525970/Horripilant/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3525970-Horripilant--2f603d68fe</guid>
+      <pubDate>Mon, 23 Nov 2026 22:00:23 GMT</pubDate>
+      <description>Horripilant combina mecánicas incrementales, acertijos y fantasía oscura con una estética retro destacable. Su combate automático es simple, pero su progresión y misterio atrapan.</description>
+      <comments>https://juegohispano.com/mensaje/resena-horripilant</comments>
+    </item>
+    <item>
       <title>[Recomendado] Wilderdark</title>
       <link>https://store.steampowered.com/app/2735850/Wilderdark/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-2735850-Wilderdark--8419a76188</guid>
@@ -234,14 +242,6 @@
       <pubDate>Sun, 22 Nov 2026 02:40:19 GMT</pubDate>
       <description>Plataformas y puzles en 2.5D con estética oscura y poderes de luz en un mundo invertido. Buena atmósfera, pero lastrado por numerosos bugs que frustran y bloquean el avance.</description>
       <comments>https://juegohispano.com/mensaje/resena-ayasa-shadows-of-silence-ps5</comments>
-    </item>
-    <item>
-      <title>[Recomendado] Athanasia</title>
-      <link>https://store.steampowered.com/app/1761910/Athanasia/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-1761910-Athanasia--e8bdce8e41</guid>
-      <pubDate>Sun, 22 Nov 2026 02:40:19 GMT</pubDate>
-      <description>Terror y disparos retro en primera persona con fabricación, inventario y criaturas en un complejo. Buena atmósfera y música, aunque fácil perderse y con trama algo genérica.</description>
-      <comments>https://juegohispano.com/mensaje/resena-athanasia</comments>
     </item>
   </channel>
 </rss>
