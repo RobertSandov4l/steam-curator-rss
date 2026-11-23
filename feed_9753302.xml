@@ -5,6 +5,14 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Recomendado] Wilderdark</title>
+      <link>https://store.steampowered.com/app/2735850/Wilderdark/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-2735850-Wilderdark--8419a76188</guid>
+      <pubDate>Mon, 23 Nov 2026 21:40:19 GMT</pubDate>
+      <description>Aventura de terror y supervivencia con gran ambientación y misterios entre dinosaurios infectados. Aunque el sigilo pierde tensión y las tareas se repiten, explorar la isla engancha.</description>
+      <comments>https://juegohispano.com/mensaje/resena-wilderdark</comments>
+    </item>
+    <item>
       <title>[Recomendado] Split Brain Samsara</title>
       <link>https://store.steampowered.com/app/4370210/Split_Brain_Samsara/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4370210-Split_Brain_Samsara--8cb400fc7d</guid>
@@ -234,14 +242,6 @@
       <pubDate>Sun, 22 Nov 2026 02:40:19 GMT</pubDate>
       <description>Terror y disparos retro en primera persona con fabricación, inventario y criaturas en un complejo. Buena atmósfera y música, aunque fácil perderse y con trama algo genérica.</description>
       <comments>https://juegohispano.com/mensaje/resena-athanasia</comments>
-    </item>
-    <item>
-      <title>[Recomendado] Angry Video Game Nerd 8bit</title>
-      <link>https://store.steampowered.com/app/3445490/Angry_Video_Game_Nerd_8bit/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3445490-Angry_Video_Game_Nerd_8bit--d1d0e9405f</guid>
-      <pubDate>Sun, 22 Nov 2026 02:40:19 GMT</pubDate>
-      <description>Plataformas de acción en 8 bits difícil y lleno de parodias retro y humor de AVGN. Divertido y exigente, aunque con reapariciones molestas y campaña corta.</description>
-      <comments>https://juegohispano.com/mensaje/resena-angry-video-game-nerd-8-bit</comments>
     </item>
   </channel>
 </rss>
