@@ -866,5 +866,19 @@
     "first_seen": "Mon, 23 Nov 2026 21:00:31 GMT",
     "last_updated": "Mon, 23 Nov 2026 21:00:31 GMT",
     "pub_date": "Mon, 23 Nov 2026 21:00:31 GMT"
+  },
+  "https://store.steampowered.com/app/4370210/Split_Brain_Samsara/": {
+    "curator_id": "9753302",
+    "game_title": "Split Brain Samsara",
+    "title": "[Recomendado] Split Brain Samsara",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/4370210/Split_Brain_Samsara/",
+    "description": "Aventura cooperativa de puzles donde dos mentes comparten un cuerpo entre el plano físico y el espiritual. Exige comunicación constante y paciencia para avanzar.",
+    "comments": "https://juegohispano.com/mensaje/resena-split-brain-samsara",
+    "content_hash": "8cb400fc7d",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-4370210-Split_Brain_Samsara--8cb400fc7d",
+    "first_seen": "Mon, 23 Nov 2026 21:20:19 GMT",
+    "last_updated": "Mon, 23 Nov 2026 21:20:19 GMT",
+    "pub_date": "Mon, 23 Nov 2026 21:20:19 GMT"
   }
 }

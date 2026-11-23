@@ -5,6 +5,14 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Recomendado] Split Brain Samsara</title>
+      <link>https://store.steampowered.com/app/4370210/Split_Brain_Samsara/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4370210-Split_Brain_Samsara--8cb400fc7d</guid>
+      <pubDate>Mon, 23 Nov 2026 21:20:19 GMT</pubDate>
+      <description>Aventura cooperativa de puzles donde dos mentes comparten un cuerpo entre el plano físico y el espiritual. Exige comunicación constante y paciencia para avanzar.</description>
+      <comments>https://juegohispano.com/mensaje/resena-split-brain-samsara</comments>
+    </item>
+    <item>
       <title>[Recomendado] Farming Camp</title>
       <link>https://store.steampowered.com/app/2985880/Farming_Camp/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-2985880-Farming_Camp--f869a203f5</guid>
@@ -234,13 +242,6 @@
       <pubDate>Sun, 22 Nov 2026 02:40:19 GMT</pubDate>
       <description>Plataformas de acción en 8 bits difícil y lleno de parodias retro y humor de AVGN. Divertido y exigente, aunque con reapariciones molestas y campaña corta.</description>
       <comments>https://juegohispano.com/mensaje/resena-angry-video-game-nerd-8-bit</comments>
-    </item>
-    <item>
-      <title>[Recomendado] AFKTower</title>
-      <link>https://store.steampowered.com/app/5036970/AFKTower/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-5036970-AFKTower--75b6220074</guid>
-      <pubDate>Sun, 22 Nov 2026 01:12:52 GMT</pubDate>
-      <description>Idle que no castiga a los principiantes: equipamiento, mejoras accesibles y enemigos algo débiles. Necesitarás horas de juego para llegar a la cima. Mercado de Steam activo y sin devaluar.</description>
     </item>
   </channel>
 </rss>
