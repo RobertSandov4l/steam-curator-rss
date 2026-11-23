@@ -5,6 +5,14 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Recomendado] JudgeSim</title>
+      <link>https://store.steampowered.com/app/2919660/JudgeSim/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-2919660-JudgeSim--287a6b29e0</guid>
+      <pubDate>Mon, 23 Nov 2026 23:50:17 GMT</pubDate>
+      <description>Revisa casos, examina pruebas y dicta tu sentencia en este simulador de juez donde cada caso es distinto y tus decisiones pesan en la historia. Muy recomendable.</description>
+      <comments>https://juegohispano.com/mensaje/resena-judgesim</comments>
+    </item>
+    <item>
       <title>[Recomendado] Horripilant</title>
       <link>https://store.steampowered.com/app/3525970/Horripilant/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3525970-Horripilant--2f603d68fe</guid>
@@ -234,14 +242,6 @@
       <pubDate>Sun, 22 Nov 2026 02:40:19 GMT</pubDate>
       <description>Terror psicológico e investigación en primera persona con puzles y decisiones morales. Inquietante y con buen misterio, pero penalizado por escenarios vacíos y proporciones raras.</description>
       <comments>https://juegohispano.com/mensaje/resena-beyond-the-evil</comments>
-    </item>
-    <item>
-      <title>[Informativo] Ayasa Shadows of Silence</title>
-      <link>https://store.steampowered.com/app/3146120/Ayasa_Shadows_of_Silence/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3146120-Ayasa_Shadows_of_Silence--64186af004</guid>
-      <pubDate>Sun, 22 Nov 2026 02:40:19 GMT</pubDate>
-      <description>Plataformas y puzles en 2.5D con estética oscura y poderes de luz en un mundo invertido. Buena atmósfera, pero lastrado por numerosos bugs que frustran y bloquean el avance.</description>
-      <comments>https://juegohispano.com/mensaje/resena-ayasa-shadows-of-silence-ps5</comments>
     </item>
   </channel>
 </rss>
