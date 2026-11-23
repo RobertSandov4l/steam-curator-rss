@@ -726,5 +726,19 @@
     "first_seen": "Mon, 23 Nov 2026 20:00:23 GMT",
     "last_updated": "Mon, 23 Nov 2026 20:00:23 GMT",
     "pub_date": "Mon, 23 Nov 2026 20:00:23 GMT"
+  },
+  "https://store.steampowered.com/app/5175310/Worst_Class_Ever/": {
+    "curator_id": "9753302",
+    "game_title": "Worst Class Ever",
+    "title": "[Recomendado] Worst Class Ever",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/5175310/Worst_Class_Ever/",
+    "description": "Un divertido juego asimétrico de 1 contra 7 donde comes a escondidas y haces travesuras sin que el profesor te atrape. Con varios mapas, artilugios y soporte de Workshop, brilla con amigos.",
+    "comments": "https://juegohispano.com/mensaje/resena-worst-class-ever",
+    "content_hash": "56d2dd7428",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-5175310-Worst_Class_Ever--56d2dd7428",
+    "first_seen": "Mon, 23 Nov 2026 20:10:18 GMT",
+    "last_updated": "Mon, 23 Nov 2026 20:10:18 GMT",
+    "pub_date": "Mon, 23 Nov 2026 20:10:18 GMT"
   }
 }

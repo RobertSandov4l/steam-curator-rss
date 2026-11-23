@@ -5,6 +5,14 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Recomendado] Worst Class Ever</title>
+      <link>https://store.steampowered.com/app/5175310/Worst_Class_Ever/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-5175310-Worst_Class_Ever--56d2dd7428</guid>
+      <pubDate>Mon, 23 Nov 2026 20:10:18 GMT</pubDate>
+      <description>Un divertido juego asimétrico de 1 contra 7 donde comes a escondidas y haces travesuras sin que el profesor te atrape. Con varios mapas, artilugios y soporte de Workshop, brilla con amigos.</description>
+      <comments>https://juegohispano.com/mensaje/resena-worst-class-ever</comments>
+    </item>
+    <item>
       <title>[Recomendado] Cardaire Eternal Aces</title>
       <link>https://store.steampowered.com/app/4077320/Cardaire_Eternal_Aces/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4077320-Cardaire_Eternal_Aces--f70300182d</guid>
@@ -233,13 +241,6 @@
       <pubDate>Sun, 22 Nov 2026 01:12:52 GMT</pubDate>
       <description>Siempre hay un amigo que se separa del grupo, y aquí sale caro. Juguetes adorables y extracción cooperativa, en acceso anticipado. Falta variedad: una sola zona y tareas repetitivas.</description>
       <comments>https://juegohispano.com/mensaje/resena-escape-from-playtime</comments>
-    </item>
-    <item>
-      <title>[Recomendado] Gopher It Office Intern Simulator</title>
-      <link>https://store.steampowered.com/app/5398160/Gopher_It_Office_Intern_Simulator/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-5398160-Gopher_It_Office_Intern_Simulator--f1d28a0e04</guid>
-      <pubDate>Sat, 21 Nov 2026 21:38:27 GMT</pubDate>
-      <description>Relájate y diviértete en este simulador ambientado en una oficina de animales. Recibes tareas sencillas, aunque algunas con libertad para hacerlas a tu modo. ¡Y lo mejor, aquí nadie te despide!</description>
     </item>
   </channel>
 </rss>
