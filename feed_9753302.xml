@@ -5,6 +5,14 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Recomendado] Gloamfall</title>
+      <link>https://store.steampowered.com/app/5284270/Gloamfall/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-5284270-Gloamfall--e34d5ec454</guid>
+      <pubDate>Mon, 23 Nov 2026 20:30:22 GMT</pubDate>
+      <description>Una aventura de fantasía oscura con buenos combates, exploración y progresión. Me encantó su historia y conseguir nuevo botín. ¡Con ganas de más contenido!</description>
+      <comments>https://juegohispano.com/mensaje/resena-gloamfall</comments>
+    </item>
+    <item>
       <title>[Recomendado] Worst Class Ever</title>
       <link>https://store.steampowered.com/app/5175310/Worst_Class_Ever/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-5175310-Worst_Class_Ever--56d2dd7428</guid>
@@ -233,14 +241,6 @@
       <pubDate>Sat, 21 Nov 2026 21:38:27 GMT</pubDate>
       <description>Beat, Heart, Beat combina una dirección artística única, rock alternativo y plataformas rítmicas accesibles pero exigentes. Aunque su historia sigue incompleta, tiene un gran potencial.</description>
       <comments>https://juegohispano.com/mensaje/resena-beat-heart-beat</comments>
-    </item>
-    <item>
-      <title>[Recomendado] Escape from Playtime</title>
-      <link>https://store.steampowered.com/app/2087540/Escape_from_Playtime/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-2087540-Escape_from_Playtime--5f5f6084e8</guid>
-      <pubDate>Sun, 22 Nov 2026 01:12:52 GMT</pubDate>
-      <description>Siempre hay un amigo que se separa del grupo, y aquí sale caro. Juguetes adorables y extracción cooperativa, en acceso anticipado. Falta variedad: una sola zona y tareas repetitivas.</description>
-      <comments>https://juegohispano.com/mensaje/resena-escape-from-playtime</comments>
     </item>
   </channel>
 </rss>

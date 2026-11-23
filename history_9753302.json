@@ -740,5 +740,19 @@
     "first_seen": "Mon, 23 Nov 2026 20:10:18 GMT",
     "last_updated": "Mon, 23 Nov 2026 20:10:18 GMT",
     "pub_date": "Mon, 23 Nov 2026 20:10:18 GMT"
+  },
+  "https://store.steampowered.com/app/5284270/Gloamfall/": {
+    "curator_id": "9753302",
+    "game_title": "Gloamfall",
+    "title": "[Recomendado] Gloamfall",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/5284270/Gloamfall/",
+    "description": "Una aventura de fantasía oscura con buenos combates, exploración y progresión. Me encantó su historia y conseguir nuevo botín. ¡Con ganas de más contenido!",
+    "comments": "https://juegohispano.com/mensaje/resena-gloamfall",
+    "content_hash": "e34d5ec454",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-5284270-Gloamfall--e34d5ec454",
+    "first_seen": "Mon, 23 Nov 2026 20:30:22 GMT",
+    "last_updated": "Mon, 23 Nov 2026 20:30:22 GMT",
+    "pub_date": "Mon, 23 Nov 2026 20:30:22 GMT"
   }
 }
