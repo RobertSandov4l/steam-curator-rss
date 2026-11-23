@@ -712,5 +712,19 @@
     "first_seen": "Mon, 23 Nov 2026 19:50:19 GMT",
     "last_updated": "Mon, 23 Nov 2026 19:50:19 GMT",
     "pub_date": "Mon, 23 Nov 2026 19:50:19 GMT"
+  },
+  "https://store.steampowered.com/app/4077320/Cardaire_Eternal_Aces/": {
+    "curator_id": "9753302",
+    "game_title": "Cardaire Eternal Aces",
+    "title": "[Recomendado] Cardaire Eternal Aces",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/4077320/Cardaire_Eternal_Aces/",
+    "description": "Una carta de amor a los juegos de cartas coleccionables. Combina exploración estilo RPG, arte variado, gran banda sonora y duelos exigentes. Funciona en Steam Deck, aunque solo está en inglés.",
+    "comments": "https://juegohispano.com/mensaje/resena-cardaire-eternal-aces",
+    "content_hash": "f70300182d",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-4077320-Cardaire_Eternal_Aces--f70300182d",
+    "first_seen": "Mon, 23 Nov 2026 20:00:23 GMT",
+    "last_updated": "Mon, 23 Nov 2026 20:00:23 GMT",
+    "pub_date": "Mon, 23 Nov 2026 20:00:23 GMT"
   }
 }
