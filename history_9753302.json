@@ -754,5 +754,19 @@
     "first_seen": "Mon, 23 Nov 2026 20:30:22 GMT",
     "last_updated": "Mon, 23 Nov 2026 20:30:22 GMT",
     "pub_date": "Mon, 23 Nov 2026 20:30:22 GMT"
+  },
+  "https://store.steampowered.com/app/4535880/Dice_Have_No_Eyes/": {
+    "curator_id": "9753302",
+    "game_title": "Dice Have No Eyes",
+    "title": "[Recomendado] Dice Have No Eyes",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/4535880/Dice_Have_No_Eyes/",
+    "description": "Roguelike de dados inspirado en Balatro, centrado en el riesgo y la suerte. Sus trinkets, desbloqueos y estética peculiar enganchan pese a lo frustrante que puede ser una mala tirada.",
+    "comments": "https://juegohispano.com/mensaje/resena-dice-have-no-eyes",
+    "content_hash": "0845167286",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-4535880-Dice_Have_No_Eyes--0845167286",
+    "first_seen": "Mon, 23 Nov 2026 20:40:23 GMT",
+    "last_updated": "Mon, 23 Nov 2026 20:40:23 GMT",
+    "pub_date": "Mon, 23 Nov 2026 20:40:23 GMT"
   }
 }

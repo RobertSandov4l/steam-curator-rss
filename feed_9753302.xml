@@ -5,6 +5,14 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Recomendado] Dice Have No Eyes</title>
+      <link>https://store.steampowered.com/app/4535880/Dice_Have_No_Eyes/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4535880-Dice_Have_No_Eyes--0845167286</guid>
+      <pubDate>Mon, 23 Nov 2026 20:40:23 GMT</pubDate>
+      <description>Roguelike de dados inspirado en Balatro, centrado en el riesgo y la suerte. Sus trinkets, desbloqueos y estética peculiar enganchan pese a lo frustrante que puede ser una mala tirada.</description>
+      <comments>https://juegohispano.com/mensaje/resena-dice-have-no-eyes</comments>
+    </item>
+    <item>
       <title>[Recomendado] Gloamfall</title>
       <link>https://store.steampowered.com/app/5284270/Gloamfall/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-5284270-Gloamfall--e34d5ec454</guid>
@@ -233,14 +241,6 @@
       <pubDate>Sat, 21 Nov 2026 21:38:27 GMT</pubDate>
       <description>La abuela te persigue sin prisa, ignora algunos escondites y otras veces te encuentra sin motivo. Buena atmósfera y mapas grandes, pero con fallos de sonido. Mejor con amigos o en oferta.</description>
       <comments>https://juegohispano.com/mensaje/resena-granny-escape-together</comments>
-    </item>
-    <item>
-      <title>[Recomendado] Beat Heart Beat</title>
-      <link>https://store.steampowered.com/app/3239360/Beat_Heart_Beat/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3239360-Beat_Heart_Beat--1668c5a899</guid>
-      <pubDate>Sat, 21 Nov 2026 21:38:27 GMT</pubDate>
-      <description>Beat, Heart, Beat combina una dirección artística única, rock alternativo y plataformas rítmicas accesibles pero exigentes. Aunque su historia sigue incompleta, tiene un gran potencial.</description>
-      <comments>https://juegohispano.com/mensaje/resena-beat-heart-beat</comments>
     </item>
   </channel>
 </rss>
