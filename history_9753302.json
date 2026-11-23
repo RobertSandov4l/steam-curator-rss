@@ -558,5 +558,33 @@
     "first_seen": "Sun, 22 Nov 2026 18:40:18 GMT",
     "last_updated": "Sun, 22 Nov 2026 18:40:18 GMT",
     "pub_date": "Sun, 22 Nov 2026 18:40:18 GMT"
+  },
+  "https://store.steampowered.com/app/4059000/Cozy_Builder/": {
+    "curator_id": "9753302",
+    "game_title": "Cozy Builder",
+    "title": "[Recomendado] Cozy Builder",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/4059000/Cozy_Builder/",
+    "description": "Construcción, decoración y exploración en un pueblo semiabierto con misiones y cooperativo. Relajante y variado, aunque conviene limitar los FPS a 60 para evitar cargas altas de GPU.",
+    "comments": "https://juegohispano.com/mensaje/resena-cozy-builder",
+    "content_hash": "539b3bbd14",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-4059000-Cozy_Builder--539b3bbd14",
+    "first_seen": "Mon, 23 Nov 2026 19:30:21 GMT",
+    "last_updated": "Mon, 23 Nov 2026 19:30:21 GMT",
+    "pub_date": "Mon, 23 Nov 2026 19:30:21 GMT"
+  },
+  "https://store.steampowered.com/app/4272370/Coal_Duty/": {
+    "curator_id": "9753302",
+    "game_title": "Coal Duty",
+    "title": "[Recomendado] Coal Duty",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/4272370/Coal_Duty/",
+    "description": "Terror cooperativo con humor negro en minas aleatorias, chat por proximidad y planes de fuga. Divertido en grupo, aunque algo monótono a largo plazo en acceso anticipado.",
+    "comments": "https://juegohispano.com/mensaje/preview-coal-duty",
+    "content_hash": "34fa553e91",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-4272370-Coal_Duty--34fa553e91",
+    "first_seen": "Mon, 23 Nov 2026 19:30:21 GMT",
+    "last_updated": "Mon, 23 Nov 2026 19:30:21 GMT",
+    "pub_date": "Mon, 23 Nov 2026 19:30:21 GMT"
   }
 }

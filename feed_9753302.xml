@@ -5,6 +5,22 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Recomendado] Cozy Builder</title>
+      <link>https://store.steampowered.com/app/4059000/Cozy_Builder/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4059000-Cozy_Builder--539b3bbd14</guid>
+      <pubDate>Mon, 23 Nov 2026 19:30:21 GMT</pubDate>
+      <description>Construcción, decoración y exploración en un pueblo semiabierto con misiones y cooperativo. Relajante y variado, aunque conviene limitar los FPS a 60 para evitar cargas altas de GPU.</description>
+      <comments>https://juegohispano.com/mensaje/resena-cozy-builder</comments>
+    </item>
+    <item>
+      <title>[Recomendado] Coal Duty</title>
+      <link>https://store.steampowered.com/app/4272370/Coal_Duty/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4272370-Coal_Duty--34fa553e91</guid>
+      <pubDate>Mon, 23 Nov 2026 19:30:21 GMT</pubDate>
+      <description>Terror cooperativo con humor negro en minas aleatorias, chat por proximidad y planes de fuga. Divertido en grupo, aunque algo monótono a largo plazo en acceso anticipado.</description>
+      <comments>https://juegohispano.com/mensaje/preview-coal-duty</comments>
+    </item>
+    <item>
       <title>[Recomendado] Lias Rolling Club</title>
       <link>https://store.steampowered.com/app/5475450/Lias_Rolling_Club/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-5475450-Lias_Rolling_Club--97c31b88b6</guid>
@@ -223,22 +239,6 @@
       <pubDate>Sat, 21 Nov 2026 21:38:27 GMT</pubDate>
       <description>Acción arcade contra hordas y mazmorras con gestión de campamento y estética colorida. Tiene ideas atractivas, pero lastra con repetición de escenarios y fallos técnicos.</description>
       <comments>https://juegohispano.com/mensaje/resena-parasited-will</comments>
-    </item>
-    <item>
-      <title>[Informativo] Huntsman</title>
-      <link>https://store.steampowered.com/app/3814680/Huntsman/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3814680-Huntsman--e1e37425f2</guid>
-      <pubDate>Sat, 21 Nov 2026 21:38:27 GMT</pubDate>
-      <description>Terror en primera persona enfocado en sigilo, gestión eléctrica y tensión contra arañas gigantes en un laboratorio. Buena atmósfera, pero empañado por errores técnicos que bloquean el avance.</description>
-      <comments>https://juegohispano.com/mensaje/resena-huntsman</comments>
-    </item>
-    <item>
-      <title>[Recomendado] Next of Kin Epiphany</title>
-      <link>https://store.steampowered.com/app/4347370/Next_of_Kin_Epiphany/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4347370-Next_of_Kin_Epiphany--58543173a1</guid>
-      <pubDate>Sat, 21 Nov 2026 21:38:27 GMT</pubDate>
-      <description>Aventura detectivesca noir en 16 bits donde cruzas pistas y testimonios para desenmascarar a un asesino serial. Gran historia y deducción, pero solo disponible en inglés y sueco.</description>
-      <comments>https://juegohispano.com/mensaje/resena-next-of-kin-epiphany</comments>
     </item>
   </channel>
 </rss>
