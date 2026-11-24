@@ -5,6 +5,13 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Informativo] ThiccThocc Keyboard Studio</title>
+      <link>https://store.steampowered.com/app/4548640/ThiccThocc_Keyboard_Studio/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4548640-ThiccThocc_Keyboard_Studio--90cd872b20</guid>
+      <pubDate>Tue, 24 Nov 2026 21:50:22 GMT</pubDate>
+      <description>Utilidad que reproduce sonidos de teclados mecánicos reales grabados en estudio tecla por tecla en todo el sistema. Incluye filtros de audio, creación de perfiles propios, soporte para Steam Workshop</description>
+    </item>
+    <item>
       <title>[Recomendado] Neuron Activation</title>
       <link>https://store.steampowered.com/app/3978110/Neuron_Activation/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3978110-Neuron_Activation--8e12a2e314</guid>
@@ -233,14 +240,6 @@
       <pubDate>Mon, 23 Nov 2026 21:00:31 GMT</pubDate>
       <description>Acción arcade cooperativa en mazmorras con héroes variados, mascotas y botín. Remasterización fiel y nostálgica con mejoras técnicas y reajuste de progresión.</description>
       <comments>https://juegohispano.com/mensaje/resena-dungeon-rampage-remastered</comments>
-    </item>
-    <item>
-      <title>[Recomendado] Dice Have No Eyes</title>
-      <link>https://store.steampowered.com/app/4535880/Dice_Have_No_Eyes/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4535880-Dice_Have_No_Eyes--0845167286</guid>
-      <pubDate>Mon, 23 Nov 2026 20:40:23 GMT</pubDate>
-      <description>Roguelike de dados inspirado en Balatro, centrado en el riesgo y la suerte. Sus trinkets, desbloqueos y estética peculiar enganchan pese a lo frustrante que puede ser una mala tirada.</description>
-      <comments>https://juegohispano.com/mensaje/resena-dice-have-no-eyes</comments>
     </item>
   </channel>
 </rss>
