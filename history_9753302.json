@@ -1118,5 +1118,61 @@
     "first_seen": "Tue, 24 Nov 2026 21:20:19 GMT",
     "last_updated": "Tue, 24 Nov 2026 21:20:19 GMT",
     "pub_date": "Tue, 24 Nov 2026 21:20:19 GMT"
+  },
+  "https://store.steampowered.com/app/3978110/Neuron_Activation/": {
+    "curator_id": "9753302",
+    "game_title": "Neuron Activation",
+    "title": "[Recomendado] Neuron Activation",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/3978110/Neuron_Activation/",
+    "description": "Puzles y botones contrarreloj con multiplicadores, modo Zen y estética de experimento psicológico. Adictivo y rejugable, pero con cierta repetición y algunos términos sin traducir.",
+    "comments": "https://juegohispano.com/mensaje/resena-neuron-activation",
+    "content_hash": "8e12a2e314",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-3978110-Neuron_Activation--8e12a2e314",
+    "first_seen": "Tue, 24 Nov 2026 21:40:19 GMT",
+    "last_updated": "Tue, 24 Nov 2026 21:40:19 GMT",
+    "pub_date": "Tue, 24 Nov 2026 21:40:19 GMT"
+  },
+  "https://store.steampowered.com/app/1686230/Mayday_The_Survival_Island/": {
+    "curator_id": "9753302",
+    "game_title": "Mayday The Survival Island",
+    "title": "[Recomendado] Mayday The Survival Island",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/1686230/Mayday_The_Survival_Island/",
+    "description": "Supervivencia en un archipiélago de 24 islas con exploración libre, construcción, jefes y magia. Progresión gratificante y misteriosa, pero exigente al inicio y con inventario limitado.",
+    "comments": "https://juegohispano.com/mensaje/resena-mayday-the-survival-island",
+    "content_hash": "e8bb535e3e",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-1686230-Mayday_The_Survival_Island--e8bb535e3e",
+    "first_seen": "Tue, 24 Nov 2026 21:40:19 GMT",
+    "last_updated": "Tue, 24 Nov 2026 21:40:19 GMT",
+    "pub_date": "Tue, 24 Nov 2026 21:40:19 GMT"
+  },
+  "https://store.steampowered.com/app/3492120/Legion_Was_Here/": {
+    "curator_id": "9753302",
+    "game_title": "Legion Was Here",
+    "title": "[Recomendado] Legion Was Here",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/3492120/Legion_Was_Here/",
+    "description": "Investigación y deducción donde operas tu rostro y respondes preguntas para suplantar identidades en 6 contratos. Muy original y adictivo, pero sin español y con fallos menores.",
+    "comments": "https://juegohispano.com/mensaje/resena-legion-was-here",
+    "content_hash": "440085f314",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-3492120-Legion_Was_Here--440085f314",
+    "first_seen": "Tue, 24 Nov 2026 21:40:19 GMT",
+    "last_updated": "Tue, 24 Nov 2026 21:40:19 GMT",
+    "pub_date": "Tue, 24 Nov 2026 21:40:19 GMT"
+  },
+  "https://store.steampowered.com/app/4227560/Legends_of_Rock/": {
+    "curator_id": "9753302",
+    "game_title": "Legends of Rock",
+    "title": "[Recomendado] Legends of Rock",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/4227560/Legends_of_Rock/",
+    "description": "Simulador de vida y gestión musical con pixel art en Oslo donde creas una banda, compones temas y tocas en vivo. Carismático y con gran banda sonora rock y metal, aunque el dinero cuesta de reunir.",
+    "comments": "https://juegohispano.com/mensaje/resena-legends-of-rock-ser-metalero-no-es-facil",
+    "content_hash": "ae003ff7c7",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-4227560-Legends_of_Rock--ae003ff7c7",
+    "first_seen": "Tue, 24 Nov 2026 21:40:19 GMT",
+    "last_updated": "Tue, 24 Nov 2026 21:40:19 GMT",
+    "pub_date": "Tue, 24 Nov 2026 21:40:19 GMT"
   }
 }
