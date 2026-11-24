@@ -5,6 +5,14 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Recomendado] Probably Stolen Cyberpunk Shopkeeper Sim</title>
+      <link>https://store.steampowered.com/app/4348910/Probably_Stolen_Cyberpunk_Shopkeeper_Sim/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4348910-Probably_Stolen_Cyberpunk_Shopkeeper_Sim--48ff6947e6</guid>
+      <pubDate>Tue, 24 Nov 2026 22:20:17 GMT</pubDate>
+      <description>Simulador de tienda ciberpunk en una estación espacial con contrabando, regateo, fabricación y decisiones. Muy profundo y atmosférico, pero exigente y con RNG de clientes algo duro.</description>
+      <comments>https://juegohispano.com/mensaje/resena-probably-stolen</comments>
+    </item>
+    <item>
       <title>[Recomendado] Primal Planet</title>
       <link>https://store.steampowered.com/app/2350270/Primal_Planet/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-2350270-Primal_Planet--a89f3e3df3</guid>
@@ -232,14 +240,6 @@
       <pubDate>Mon, 23 Nov 2026 21:40:19 GMT</pubDate>
       <description>Aventura de terror y supervivencia con gran ambientación y misterios entre dinosaurios infectados. Aunque el sigilo pierde tensión y las tareas se repiten, explorar la isla engancha.</description>
       <comments>https://juegohispano.com/mensaje/resena-wilderdark</comments>
-    </item>
-    <item>
-      <title>[Recomendado] Split Brain Samsara</title>
-      <link>https://store.steampowered.com/app/4370210/Split_Brain_Samsara/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4370210-Split_Brain_Samsara--8cb400fc7d</guid>
-      <pubDate>Mon, 23 Nov 2026 21:20:19 GMT</pubDate>
-      <description>Aventura cooperativa de puzles donde dos mentes comparten un cuerpo entre el plano físico y el espiritual. Exige comunicación constante y paciencia para avanzar.</description>
-      <comments>https://juegohispano.com/mensaje/resena-split-brain-samsara</comments>
     </item>
   </channel>
 </rss>
