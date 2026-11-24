@@ -1062,5 +1062,33 @@
     "first_seen": "Tue, 24 Nov 2026 20:50:18 GMT",
     "last_updated": "Tue, 24 Nov 2026 20:50:18 GMT",
     "pub_date": "Tue, 24 Nov 2026 20:50:18 GMT"
+  },
+  "https://store.steampowered.com/app/4207100/I_Know_a_Spot/": {
+    "curator_id": "9753302",
+    "game_title": "I Know a Spot",
+    "title": "[Informativo] I Know a Spot",
+    "verdict": "Informativo",
+    "link": "https://store.steampowered.com/app/4207100/I_Know_a_Spot/",
+    "description": "Exploración y campamento sin prisas con vehículo y perro personalizables. Relajante y sencillo, pero con conducción rígida, cámara fija al auto, mapa pequeño y zona de pruebas visible.",
+    "comments": "https://juegohispano.com/mensaje/resena-i-know-a-spot",
+    "content_hash": "9448e27936",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-4207100-I_Know_a_Spot--9448e27936",
+    "first_seen": "Tue, 24 Nov 2026 21:10:19 GMT",
+    "last_updated": "Tue, 24 Nov 2026 21:10:19 GMT",
+    "pub_date": "Tue, 24 Nov 2026 21:10:19 GMT"
+  },
+  "https://store.steampowered.com/app/2861210/HYPNOS/": {
+    "curator_id": "9753302",
+    "game_title": "HYPNOS",
+    "title": "[Recomendado] HYPNOS",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/2861210/HYPNOS/",
+    "description": "Aventura de exploración onírica en primera persona con misterio lovecraftiano, decisiones y 4 finales. Arte surrealista y banda sonora envolvente, pero con ritmo pausado y poca guía.",
+    "comments": "https://juegohispano.com/mensaje/resena-hypnos",
+    "content_hash": "0ef0f67d5e",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-2861210-HYPNOS--0ef0f67d5e",
+    "first_seen": "Tue, 24 Nov 2026 21:10:19 GMT",
+    "last_updated": "Tue, 24 Nov 2026 21:10:19 GMT",
+    "pub_date": "Tue, 24 Nov 2026 21:10:19 GMT"
   }
 }

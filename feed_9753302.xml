@@ -5,6 +5,22 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Informativo] I Know a Spot</title>
+      <link>https://store.steampowered.com/app/4207100/I_Know_a_Spot/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4207100-I_Know_a_Spot--9448e27936</guid>
+      <pubDate>Tue, 24 Nov 2026 21:10:19 GMT</pubDate>
+      <description>Exploración y campamento sin prisas con vehículo y perro personalizables. Relajante y sencillo, pero con conducción rígida, cámara fija al auto, mapa pequeño y zona de pruebas visible.</description>
+      <comments>https://juegohispano.com/mensaje/resena-i-know-a-spot</comments>
+    </item>
+    <item>
+      <title>[Recomendado] HYPNOS</title>
+      <link>https://store.steampowered.com/app/2861210/HYPNOS/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-2861210-HYPNOS--0ef0f67d5e</guid>
+      <pubDate>Tue, 24 Nov 2026 21:10:19 GMT</pubDate>
+      <description>Aventura de exploración onírica en primera persona con misterio lovecraftiano, decisiones y 4 finales. Arte surrealista y banda sonora envolvente, pero con ritmo pausado y poca guía.</description>
+      <comments>https://juegohispano.com/mensaje/resena-hypnos</comments>
+    </item>
+    <item>
       <title>[Recomendado] HR Human Remains</title>
       <link>https://store.steampowered.com/app/3541630/HR_Human_Remains/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3541630-HR_Human_Remains--37b717912c</guid>
@@ -225,22 +241,6 @@
       <pubDate>Mon, 23 Nov 2026 19:50:19 GMT</pubDate>
       <description>Plataformas 2D cómico de Dog Man con cambio de personajes, aliados, 60 niveles y humor infantil. Divertido y accesible, aunque con cooperativo limitado.</description>
       <comments>https://juegohispano.com/mensaje/resena-dog-man-bark-in-action</comments>
-    </item>
-    <item>
-      <title>[Recomendado] DEMONS NIGHT FEVER</title>
-      <link>https://store.steampowered.com/app/3502620/DEMONS_NIGHT_FEVER/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3502620-DEMONS_NIGHT_FEVER--03bfbd4911</guid>
-      <pubDate>Mon, 23 Nov 2026 19:40:23 GMT</pubDate>
-      <description>Estrategia táctica JRPG con sacrificios de aliados y humor anime. Divertido y con gran estilo visual, aunque con límite de 30 turnos, IA aliada torpe y sin español.</description>
-      <comments>https://juegohispano.com/mensaje/resena-demons-night-fever</comments>
-    </item>
-    <item>
-      <title>[Recomendado] Deep Dish Dungeon</title>
-      <link>https://store.steampowered.com/app/2871520/Deep_Dish_Dungeon/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-2871520-Deep_Dish_Dungeon--32b1b2d038</guid>
-      <pubDate>Mon, 23 Nov 2026 19:40:23 GMT</pubDate>
-      <description>Mazmorreo en primera persona sin mapa con progresión basada en cocina, exploración metroidvania y cooperativo. Muy inmersivo y original, aunque lastra por físicas toscas e hitboxes engañosas.</description>
-      <comments>https://juegohispano.com/mensaje/resena-deep-dish-dungeon</comments>
     </item>
   </channel>
 </rss>
