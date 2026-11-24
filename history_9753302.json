@@ -929,13 +929,13 @@
     "title": "[Recomendado] Water TD",
     "verdict": "Recomendado",
     "link": "https://store.steampowered.com/app/5295330/Water_TD/",
-    "description": "Defiende la aldea que se inunda de agua. Un juego muy entretenido que combina el género de roguelike con la defensa de torres, tiene mecánicas de progresión muy interesantes. Niveles desafiantes.",
+    "description": "Water TD es un juego muy entretenido, combina muy bien los géneros de defensa de torres con un sistema de progresión que incentiva a los jugadores a seguir jugando para terminar los niveles.",
     "comments": "",
-    "content_hash": "c2f6dd37e3",
-    "guid": "steam-curator-9753302-https-store-steampowered-com-app-5295330-Water_TD--c2f6dd37e3",
+    "content_hash": "773e02c73d",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-5295330-Water_TD--773e02c73d",
     "first_seen": "Tue, 24 Nov 2026 03:00:24 GMT",
-    "last_updated": "Tue, 24 Nov 2026 03:00:24 GMT",
-    "pub_date": "Tue, 24 Nov 2026 03:00:24 GMT"
+    "last_updated": "Tue, 24 Nov 2026 03:30:24 GMT",
+    "pub_date": "Tue, 24 Nov 2026 03:30:24 GMT"
   },
   "https://store.steampowered.com/app/5081060/Just_Up_2D_Platformer/": {
     "curator_id": "9753302",
@@ -943,12 +943,12 @@
     "title": "[Recomendado] Just Up 2D Platformer",
     "verdict": "Recomendado",
     "link": "https://store.steampowered.com/app/5081060/Just_Up_2D_Platformer/",
-    "description": "Salta e intenta llegar a la cima. Un juego simple y a la vez desafiante. Entretenido pero frustrante al mismo tiempo. Para ser un juego que solo tienes que saltar, cumple su función de entretener.",
+    "description": "Just up: 2D platformer mas que un juego, es un desafío para cierto tipo de jugadores. Te propone un reto para llegar a la cima y tienes un sistema de movimiento muy reducido para llegar al objetivo.",
     "comments": "",
-    "content_hash": "db4dd6443c",
-    "guid": "steam-curator-9753302-https-store-steampowered-com-app-5081060-Just_Up_2D_Platformer--db4dd6443c",
+    "content_hash": "3f5f0e5c8e",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-5081060-Just_Up_2D_Platformer--3f5f0e5c8e",
     "first_seen": "Tue, 24 Nov 2026 03:20:19 GMT",
-    "last_updated": "Tue, 24 Nov 2026 03:20:19 GMT",
-    "pub_date": "Tue, 24 Nov 2026 03:20:19 GMT"
+    "last_updated": "Tue, 24 Nov 2026 03:30:24 GMT",
+    "pub_date": "Tue, 24 Nov 2026 03:30:24 GMT"
   }
 }
