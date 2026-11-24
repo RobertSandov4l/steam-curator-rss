@@ -1230,5 +1230,61 @@
     "first_seen": "Tue, 24 Nov 2026 22:00:23 GMT",
     "last_updated": "Tue, 24 Nov 2026 22:00:23 GMT",
     "pub_date": "Tue, 24 Nov 2026 22:00:23 GMT"
+  },
+  "https://store.steampowered.com/app/2350270/Primal_Planet/": {
+    "curator_id": "9753302",
+    "game_title": "Primal Planet",
+    "title": "[Recomendado] Primal Planet",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/2350270/Primal_Planet/",
+    "description": "Supervivencia metroidvania prehistórica con dinosaurios, alienígenas y un compañero jurásico. Estética pixelada cuidada y combate ágil, pero con mapa extenso, backtracking y dificultad que decae.",
+    "comments": "https://juegohispano.com/mensaje/resena-primal-planet",
+    "content_hash": "a89f3e3df3",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-2350270-Primal_Planet--a89f3e3df3",
+    "first_seen": "Tue, 24 Nov 2026 22:10:18 GMT",
+    "last_updated": "Tue, 24 Nov 2026 22:10:18 GMT",
+    "pub_date": "Tue, 24 Nov 2026 22:10:18 GMT"
+  },
+  "https://store.steampowered.com/app/4834760/Pool_of_Radiance_Ruins_of_Myth_Drannor/": {
+    "curator_id": "9753302",
+    "game_title": "Pool of Radiance Ruins of Myth Drannor",
+    "title": "[Informativo] Pool of Radiance Ruins of Myth Drannor",
+    "verdict": "Informativo",
+    "link": "https://store.steampowered.com/app/4834760/Pool_of_Radiance_Ruins_of_Myth_Drannor/",
+    "description": "RPG táctico clásico basado en Dungeons & Dragons con creación de grupo, mazmorras y mejoras en 4K. Encanto retro y preservación cuidada, pero con estructura repetitiva y mecánicas anticuadas.",
+    "comments": "https://juegohispano.com/mensaje/resena-pool-of-radiance-ruins-of-myth-drannor",
+    "content_hash": "e12c57d8e5",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-4834760-Pool_of_Radiance_Ruins_of_Myth_Drannor--e12c57d8e5",
+    "first_seen": "Tue, 24 Nov 2026 22:10:18 GMT",
+    "last_updated": "Tue, 24 Nov 2026 22:10:18 GMT",
+    "pub_date": "Tue, 24 Nov 2026 22:10:18 GMT"
+  },
+  "https://store.steampowered.com/app/3253530/PIT_OF_GOBLIN/": {
+    "curator_id": "9753302",
+    "game_title": "PIT OF GOBLIN",
+    "title": "[Recomendado] PIT OF GOBLIN",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/3253530/PIT_OF_GOBLIN/",
+    "description": "Terror cooperativo de extracción en mazmorras donde saquéas comida para alimentar a una deidad goblin. Gran atmósfera oscura y chat de proximidad, pero con fallos de red y tirones al cargar zonas.",
+    "comments": "https://juegohispano.com/mensaje/resena-pit-of-goblin",
+    "content_hash": "ffe7307aa9",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-3253530-PIT_OF_GOBLIN--ffe7307aa9",
+    "first_seen": "Tue, 24 Nov 2026 22:10:18 GMT",
+    "last_updated": "Tue, 24 Nov 2026 22:10:18 GMT",
+    "pub_date": "Tue, 24 Nov 2026 22:10:18 GMT"
+  },
+  "https://store.steampowered.com/app/4563590/Pig_King/": {
+    "curator_id": "9753302",
+    "game_title": "Pig King",
+    "title": "[Informativo] Pig King",
+    "verdict": "Informativo",
+    "link": "https://store.steampowered.com/app/4563590/Pig_King/",
+    "description": "Party-game caótico y absurdo de cerdos armados en acceso anticipado con 3 modos, físicas torpes y zombis. Divertido con amigos, pero falto de contenido y sin lobbies públicos.",
+    "comments": "https://juegohispano.com/mensaje/resena-pig-king",
+    "content_hash": "5ab4beefce",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-4563590-Pig_King--5ab4beefce",
+    "first_seen": "Tue, 24 Nov 2026 22:10:18 GMT",
+    "last_updated": "Tue, 24 Nov 2026 22:10:18 GMT",
+    "pub_date": "Tue, 24 Nov 2026 22:10:18 GMT"
   }
 }
