@@ -1006,5 +1006,61 @@
     "first_seen": "Tue, 24 Nov 2026 20:40:21 GMT",
     "last_updated": "Tue, 24 Nov 2026 20:40:21 GMT",
     "pub_date": "Tue, 24 Nov 2026 20:40:21 GMT"
+  },
+  "https://store.steampowered.com/app/3541630/HR_Human_Remains/": {
+    "curator_id": "9753302",
+    "game_title": "HR Human Remains",
+    "title": "[Recomendado] HR Human Remains",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/3541630/HR_Human_Remains/",
+    "description": "Terror psicológico en primera persona con puzles, minijuegos y rutina laboral bajo demonios. Gran atmósfera, humor negro y decisiones con varios finales.",
+    "comments": "https://juegohispano.com/mensaje/resena-hr-human-remains",
+    "content_hash": "37b717912c",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-3541630-HR_Human_Remains--37b717912c",
+    "first_seen": "Tue, 24 Nov 2026 20:50:18 GMT",
+    "last_updated": "Tue, 24 Nov 2026 20:50:18 GMT",
+    "pub_date": "Tue, 24 Nov 2026 20:50:18 GMT"
+  },
+  "https://store.steampowered.com/app/4663730/How_Empires_Work/": {
+    "curator_id": "9753302",
+    "game_title": "How Empires Work",
+    "title": "[Informativo] How Empires Work",
+    "verdict": "Informativo",
+    "link": "https://store.steampowered.com/app/4663730/How_Empires_Work/",
+    "description": "Gestión y automatización incremental de un imperio con conquista, colonización y árbol de avances. Buena base y sonido relajante, pero lastrado por mecánicas desbloqueables incompletas.",
+    "comments": "https://juegohispano.com/mensaje/resena-how-empires-work",
+    "content_hash": "670f903baa",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-4663730-How_Empires_Work--670f903baa",
+    "first_seen": "Tue, 24 Nov 2026 20:50:18 GMT",
+    "last_updated": "Tue, 24 Nov 2026 20:50:18 GMT",
+    "pub_date": "Tue, 24 Nov 2026 20:50:18 GMT"
+  },
+  "https://store.steampowered.com/app/3504050/Hillthorn/": {
+    "curator_id": "9753302",
+    "game_title": "Hillthorn",
+    "title": "[Recomendado] Hillthorn",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/3504050/Hillthorn/",
+    "description": "Simulador de investigación noir sin diálogos donde resuelves desapariciones mediante cartas y gestión del tiempo. Arte oscuro ilustrado y gran atmósfera sonora, pese a una interfaz cargada.",
+    "comments": "https://juegohispano.com/mensaje/resena-hillthorn",
+    "content_hash": "c3c238363e",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-3504050-Hillthorn--c3c238363e",
+    "first_seen": "Tue, 24 Nov 2026 20:50:18 GMT",
+    "last_updated": "Tue, 24 Nov 2026 20:50:18 GMT",
+    "pub_date": "Tue, 24 Nov 2026 20:50:18 GMT"
+  },
+  "https://store.steampowered.com/app/2147380/Heroes_of_Science_and_Fiction/": {
+    "curator_id": "9753302",
+    "game_title": "Heroes of Science and Fiction",
+    "title": "[Recomendado] Heroes of Science and Fiction",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/2147380/Heroes_of_Science_and_Fiction/",
+    "description": "Estrategia por turnos espacial al estilo Heroes of Might and Magic con 5 facciones, exploración y gestión. Adictivo y táctico, pero con turnos lentos e historia sencilla.",
+    "comments": "https://juegohispano.com/mensaje/resena-heroes-of-science-and-fiction-dlc-xenauri-faction",
+    "content_hash": "ca5a72f55c",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-2147380-Heroes_of_Science_and_Fiction--ca5a72f55c",
+    "first_seen": "Tue, 24 Nov 2026 20:50:18 GMT",
+    "last_updated": "Tue, 24 Nov 2026 20:50:18 GMT",
+    "pub_date": "Tue, 24 Nov 2026 20:50:18 GMT"
   }
 }
