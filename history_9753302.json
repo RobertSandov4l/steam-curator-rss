@@ -936,5 +936,19 @@
     "first_seen": "Tue, 24 Nov 2026 03:00:24 GMT",
     "last_updated": "Tue, 24 Nov 2026 03:00:24 GMT",
     "pub_date": "Tue, 24 Nov 2026 03:00:24 GMT"
+  },
+  "https://store.steampowered.com/app/5081060/Just_Up_2D_Platformer/": {
+    "curator_id": "9753302",
+    "game_title": "Just Up 2D Platformer",
+    "title": "[Recomendado] Just Up 2D Platformer",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/5081060/Just_Up_2D_Platformer/",
+    "description": "Salta e intenta llegar a la cima. Un juego simple y a la vez desafiante. Entretenido pero frustrante al mismo tiempo. Para ser un juego que solo tienes que saltar, cumple su función de entretener.",
+    "comments": "",
+    "content_hash": "db4dd6443c",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-5081060-Just_Up_2D_Platformer--db4dd6443c",
+    "first_seen": "Tue, 24 Nov 2026 03:20:19 GMT",
+    "last_updated": "Tue, 24 Nov 2026 03:20:19 GMT",
+    "pub_date": "Tue, 24 Nov 2026 03:20:19 GMT"
   }
 }

@@ -5,6 +5,13 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Recomendado] Just Up 2D Platformer</title>
+      <link>https://store.steampowered.com/app/5081060/Just_Up_2D_Platformer/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-5081060-Just_Up_2D_Platformer--db4dd6443c</guid>
+      <pubDate>Tue, 24 Nov 2026 03:20:19 GMT</pubDate>
+      <description>Salta e intenta llegar a la cima. Un juego simple y a la vez desafiante. Entretenido pero frustrante al mismo tiempo. Para ser un juego que solo tienes que saltar, cumple su función de entretener.</description>
+    </item>
+    <item>
       <title>[Recomendado] Water TD</title>
       <link>https://store.steampowered.com/app/5295330/Water_TD/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-5295330-Water_TD--c2f6dd37e3</guid>
@@ -233,14 +240,6 @@
       <pubDate>Sun, 22 Nov 2026 02:40:19 GMT</pubDate>
       <description>Roguelike numérico con calculadoras, teclas especiales, jefes, desafíos y modo infinito. Adictivo y original para ejercitar el cálculo mental, aunque por ahora sin traducción al español.</description>
       <comments>https://juegohispano.com/mensaje/resena-calculate-it</comments>
-    </item>
-    <item>
-      <title>[Informativo] BLOODY HELL 2</title>
-      <link>https://store.steampowered.com/app/3010150/BLOODY_HELL_2/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3010150-BLOODY_HELL_2--a4289a533b</guid>
-      <pubDate>Sun, 22 Nov 2026 02:40:19 GMT</pubDate>
-      <description>Acción isométrica exigente con martillo demoníaco, desvíos, jefes y exploración entre cielo e infierno. Muy prometedor en su demo, con combate preciso y estética macabra.</description>
-      <comments>https://juegohispano.com/mensaje/resena-bloody-hell-2</comments>
     </item>
   </channel>
 </rss>
