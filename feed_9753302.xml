@@ -5,6 +5,30 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Informativo] Permafrost</title>
+      <link>https://store.steampowered.com/app/2254990/Permafrost/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-2254990-Permafrost--5292df3e6c</guid>
+      <pubDate>Tue, 24 Nov 2026 22:00:23 GMT</pubDate>
+      <description>Supervivencia invernal en acceso anticipado con construcción, progresión ágil y trama lineal. Buena atmósfera y enfoque narrativo, pero con caídas de FPS, mala IA y multijugador problemático.</description>
+      <comments>https://juegohispano.com/mensaje/resena-permafrost</comments>
+    </item>
+    <item>
+      <title>[Recomendado] Overdue</title>
+      <link>https://store.steampowered.com/app/4456180/Overdue/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4456180-Overdue--590494d025</guid>
+      <pubDate>Tue, 24 Nov 2026 22:00:23 GMT</pubDate>
+      <description>Terror cooperativo en un almacén laberíntico donde completas pedidos contra reloj esquivando criaturas. Divertido para pasar el rato, pero con dinámica individual y visibilidad complicada.</description>
+      <comments>https://juegohispano.com/mensaje/resena-overdue</comments>
+    </item>
+    <item>
+      <title>[Recomendado] No More Room in Hell 2</title>
+      <link>https://store.steampowered.com/app/292000/No_More_Room_in_Hell_2/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-292000-No_More_Room_in_Hell_2--2414973b41</guid>
+      <pubDate>Tue, 24 Nov 2026 22:00:23 GMT</pubDate>
+      <description>Supervivencia zombi cooperativa con muerte permanente, escasez de recursos y buen gunplay. Tenso y estratégico con amigos, pero sin progresión en solitario, sin selector de mapas y con caídas de FPS.</description>
+      <comments>https://juegohispano.com/mensaje/resena-no-more-room-in-hell-2</comments>
+    </item>
+    <item>
       <title>[Informativo] ThiccThocc Keyboard Studio</title>
       <link>https://store.steampowered.com/app/4548640/ThiccThocc_Keyboard_Studio/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4548640-ThiccThocc_Keyboard_Studio--90cd872b20</guid>
@@ -216,30 +240,6 @@
       <pubDate>Mon, 23 Nov 2026 21:00:31 GMT</pubDate>
       <description>Acción y terror más acelerados con combate, magia y doblaje al español en una secuela amplia. Reedición útil con logros y mando, pero con reaparición infinita y bugs.</description>
       <comments>https://juegohispano.com/mensaje/resena-ecstatica-i-ii</comments>
-    </item>
-    <item>
-      <title>[Recomendado] Ecstatica</title>
-      <link>https://store.steampowered.com/app/4834840/Ecstatica/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4834840-Ecstatica--5150bc4fa1</guid>
-      <pubDate>Mon, 23 Nov 2026 21:00:31 GMT</pubDate>
-      <description>Survival horror pionero sin HUD y con elipsoides, ahora en español, mando y quicksave. Clásico de culto y bien preservado, pese a fallos visuales y de cámara.</description>
-      <comments>https://juegohispano.com/mensaje/resena-ecstatica-i-ii</comments>
-    </item>
-    <item>
-      <title>[Recomendado] Dungeons Degenerate Gamblers</title>
-      <link>https://store.steampowered.com/app/2400510/Dungeons_Degenerate_Gamblers/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-2400510-Dungeons_Degenerate_Gamblers--a1159667c4</guid>
-      <pubDate>Mon, 23 Nov 2026 21:00:31 GMT</pubDate>
-      <description>Roguelike de construcción de mazos basado en blackjack con cartas especiales, fichas y eventos. Muy adictivo y rejugable, aunque exigente, punitivo con el azar y falto de tutoriales.</description>
-      <comments>https://juegohispano.com/mensaje/resena-dungeons-degenerate-gamblers</comments>
-    </item>
-    <item>
-      <title>[Recomendado] Dungeon Rampage Remastered</title>
-      <link>https://store.steampowered.com/app/3053950/Dungeon_Rampage_Remastered/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3053950-Dungeon_Rampage_Remastered--57d40cc355</guid>
-      <pubDate>Mon, 23 Nov 2026 21:00:31 GMT</pubDate>
-      <description>Acción arcade cooperativa en mazmorras con héroes variados, mascotas y botín. Remasterización fiel y nostálgica con mejoras técnicas y reajuste de progresión.</description>
-      <comments>https://juegohispano.com/mensaje/resena-dungeon-rampage-remastered</comments>
     </item>
   </channel>
 </rss>

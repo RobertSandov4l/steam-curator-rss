@@ -1188,5 +1188,47 @@
     "first_seen": "Tue, 24 Nov 2026 21:50:22 GMT",
     "last_updated": "Tue, 24 Nov 2026 21:50:22 GMT",
     "pub_date": "Tue, 24 Nov 2026 21:50:22 GMT"
+  },
+  "https://store.steampowered.com/app/2254990/Permafrost/": {
+    "curator_id": "9753302",
+    "game_title": "Permafrost",
+    "title": "[Informativo] Permafrost",
+    "verdict": "Informativo",
+    "link": "https://store.steampowered.com/app/2254990/Permafrost/",
+    "description": "Supervivencia invernal en acceso anticipado con construcción, progresión ágil y trama lineal. Buena atmósfera y enfoque narrativo, pero con caídas de FPS, mala IA y multijugador problemático.",
+    "comments": "https://juegohispano.com/mensaje/resena-permafrost",
+    "content_hash": "5292df3e6c",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-2254990-Permafrost--5292df3e6c",
+    "first_seen": "Tue, 24 Nov 2026 22:00:23 GMT",
+    "last_updated": "Tue, 24 Nov 2026 22:00:23 GMT",
+    "pub_date": "Tue, 24 Nov 2026 22:00:23 GMT"
+  },
+  "https://store.steampowered.com/app/4456180/Overdue/": {
+    "curator_id": "9753302",
+    "game_title": "Overdue",
+    "title": "[Recomendado] Overdue",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/4456180/Overdue/",
+    "description": "Terror cooperativo en un almacén laberíntico donde completas pedidos contra reloj esquivando criaturas. Divertido para pasar el rato, pero con dinámica individual y visibilidad complicada.",
+    "comments": "https://juegohispano.com/mensaje/resena-overdue",
+    "content_hash": "590494d025",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-4456180-Overdue--590494d025",
+    "first_seen": "Tue, 24 Nov 2026 22:00:23 GMT",
+    "last_updated": "Tue, 24 Nov 2026 22:00:23 GMT",
+    "pub_date": "Tue, 24 Nov 2026 22:00:23 GMT"
+  },
+  "https://store.steampowered.com/app/292000/No_More_Room_in_Hell_2/": {
+    "curator_id": "9753302",
+    "game_title": "No More Room in Hell 2",
+    "title": "[Recomendado] No More Room in Hell 2",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/292000/No_More_Room_in_Hell_2/",
+    "description": "Supervivencia zombi cooperativa con muerte permanente, escasez de recursos y buen gunplay. Tenso y estratégico con amigos, pero sin progresión en solitario, sin selector de mapas y con caídas de FPS.",
+    "comments": "https://juegohispano.com/mensaje/resena-no-more-room-in-hell-2",
+    "content_hash": "2414973b41",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-292000-No_More_Room_in_Hell_2--2414973b41",
+    "first_seen": "Tue, 24 Nov 2026 22:00:23 GMT",
+    "last_updated": "Tue, 24 Nov 2026 22:00:23 GMT",
+    "pub_date": "Tue, 24 Nov 2026 22:00:23 GMT"
   }
 }
