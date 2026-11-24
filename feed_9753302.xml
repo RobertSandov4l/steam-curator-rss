@@ -5,6 +5,22 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Recomendado] Knuckle Creek</title>
+      <link>https://store.steampowered.com/app/4652930/Knuckle_Creek/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4652930-Knuckle_Creek--8ba596095b</guid>
+      <pubDate>Tue, 24 Nov 2026 21:20:19 GMT</pubDate>
+      <description>Brawler cómico con estética de plastilina para hasta 8 jugadores, campaña, personalización y lanzamiento de objetos. Divertido y bien optimizado, pero con apuntado mejorable.</description>
+      <comments>https://juegohispano.com/mensaje/resena-knuckle-creek</comments>
+    </item>
+    <item>
+      <title>[Recomendado] Kick</title>
+      <link>https://store.steampowered.com/app/3760370/Kick/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3760370-Kick--12b08fa5fc</guid>
+      <pubDate>Tue, 24 Nov 2026 21:20:19 GMT</pubDate>
+      <description>Plataformas con física de balón donde llevas a un niño pateando una pelota al colegio en 23 niveles. Sencillo, nostálgico y entretenido, con temporizador opcional y coleccionables.</description>
+      <comments>https://juegohispano.com/mensaje/resena-kick</comments>
+    </item>
+    <item>
       <title>[Informativo] I Know a Spot</title>
       <link>https://store.steampowered.com/app/4207100/I_Know_a_Spot/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4207100-I_Know_a_Spot--9448e27936</guid>
@@ -225,22 +241,6 @@
       <pubDate>Mon, 23 Nov 2026 19:50:19 GMT</pubDate>
       <description>Terror psicológico e investigación en un tren con recuerdos en cartas, diálogos y misterio cósmico. Gran atmósfera y deducción, aunque el ritmo puede estancarse al combinar pistas.</description>
       <comments>https://juegohispano.com/mensaje/resena-dreadline-express</comments>
-    </item>
-    <item>
-      <title>[Recomendado] Dominus Gladiatus</title>
-      <link>https://store.steampowered.com/app/3572090/Dominus_Gladiatus/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3572090-Dominus_Gladiatus--4971c70275</guid>
-      <pubDate>Mon, 23 Nov 2026 19:50:19 GMT</pubDate>
-      <description>Gestión táctica y auto-battler de gladiadores en Roma con torneos, mejoras y modo sandbox. Inmersivo y con gran sonido, aunque algo repetitivo con el tiempo.</description>
-      <comments>https://juegohispano.com/mensaje/resena-dominus-gladiatus</comments>
-    </item>
-    <item>
-      <title>[Recomendado] Hombre Perro Vuelta a la Carga</title>
-      <link>https://store.steampowered.com/app/4782240/Hombre_Perro_Vuelta_a_la_Carga/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4782240-Hombre_Perro_Vuelta_a_la_Carga--26b0b2b15d</guid>
-      <pubDate>Mon, 23 Nov 2026 19:50:19 GMT</pubDate>
-      <description>Plataformas 2D cómico de Dog Man con cambio de personajes, aliados, 60 niveles y humor infantil. Divertido y accesible, aunque con cooperativo limitado.</description>
-      <comments>https://juegohispano.com/mensaje/resena-dog-man-bark-in-action</comments>
     </item>
   </channel>
 </rss>

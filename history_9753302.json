@@ -1090,5 +1090,33 @@
     "first_seen": "Tue, 24 Nov 2026 21:10:19 GMT",
     "last_updated": "Tue, 24 Nov 2026 21:10:19 GMT",
     "pub_date": "Tue, 24 Nov 2026 21:10:19 GMT"
+  },
+  "https://store.steampowered.com/app/4652930/Knuckle_Creek/": {
+    "curator_id": "9753302",
+    "game_title": "Knuckle Creek",
+    "title": "[Recomendado] Knuckle Creek",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/4652930/Knuckle_Creek/",
+    "description": "Brawler cómico con estética de plastilina para hasta 8 jugadores, campaña, personalización y lanzamiento de objetos. Divertido y bien optimizado, pero con apuntado mejorable.",
+    "comments": "https://juegohispano.com/mensaje/resena-knuckle-creek",
+    "content_hash": "8ba596095b",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-4652930-Knuckle_Creek--8ba596095b",
+    "first_seen": "Tue, 24 Nov 2026 21:20:19 GMT",
+    "last_updated": "Tue, 24 Nov 2026 21:20:19 GMT",
+    "pub_date": "Tue, 24 Nov 2026 21:20:19 GMT"
+  },
+  "https://store.steampowered.com/app/3760370/Kick/": {
+    "curator_id": "9753302",
+    "game_title": "Kick",
+    "title": "[Recomendado] Kick",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/3760370/Kick/",
+    "description": "Plataformas con física de balón donde llevas a un niño pateando una pelota al colegio en 23 niveles. Sencillo, nostálgico y entretenido, con temporizador opcional y coleccionables.",
+    "comments": "https://juegohispano.com/mensaje/resena-kick",
+    "content_hash": "12b08fa5fc",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-3760370-Kick--12b08fa5fc",
+    "first_seen": "Tue, 24 Nov 2026 21:20:19 GMT",
+    "last_updated": "Tue, 24 Nov 2026 21:20:19 GMT",
+    "pub_date": "Tue, 24 Nov 2026 21:20:19 GMT"
   }
 }
