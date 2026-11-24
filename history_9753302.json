@@ -950,5 +950,61 @@
     "first_seen": "Tue, 24 Nov 2026 03:20:19 GMT",
     "last_updated": "Tue, 24 Nov 2026 03:50:18 GMT",
     "pub_date": "Tue, 24 Nov 2026 03:50:18 GMT"
+  },
+  "https://store.steampowered.com/app/1892100/HEART_ABYSS/": {
+    "curator_id": "9753302",
+    "game_title": "HEART ABYSS",
+    "title": "[Recomendado] HEART ABYSS",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/1892100/HEART_ABYSS/",
+    "description": "Acción y plataformas 2D en el Japón del siglo XVII con combate ágil y jefes exigentes. Divertido y visualmente claro, pero con historia plana, retrasos de cámara y bugs de progreso.",
+    "comments": "https://juegohispano.com/mensaje/resena-heart-abyss",
+    "content_hash": "3b13f3a205",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-1892100-HEART_ABYSS--3b13f3a205",
+    "first_seen": "Tue, 24 Nov 2026 20:40:21 GMT",
+    "last_updated": "Tue, 24 Nov 2026 20:40:21 GMT",
+    "pub_date": "Tue, 24 Nov 2026 20:40:21 GMT"
+  },
+  "https://store.steampowered.com/app/2347080/Frosthaven/": {
+    "curator_id": "9753302",
+    "game_title": "Frosthaven",
+    "title": "[Recomendado] Frosthaven",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/2347080/Frosthaven/",
+    "description": "Táctica por turnos sin dados con cartas, gestión de asentamiento y dioramas invernales. Profundo y envolvente si engancha, pero abrumador al inicio y con cargas largas y fallos online.",
+    "comments": "https://juegohispano.com/mensaje/resena-frosthaven",
+    "content_hash": "a227690e54",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-2347080-Frosthaven--a227690e54",
+    "first_seen": "Tue, 24 Nov 2026 20:40:21 GMT",
+    "last_updated": "Tue, 24 Nov 2026 20:40:21 GMT",
+    "pub_date": "Tue, 24 Nov 2026 20:40:21 GMT"
+  },
+  "https://store.steampowered.com/app/3733710/FIRESTARTERS/": {
+    "curator_id": "9753302",
+    "game_title": "FIRESTARTERS",
+    "title": "[Recomendado] FIRESTARTERS",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/3733710/FIRESTARTERS/",
+    "description": "Shooter en primera persona frenético con patines, esquivas, mejoras y estética anime ciberpunk. Divertido y fluido en la arena, pero sin traducción al español y con pocos enemigos al inicio.",
+    "comments": "https://juegohispano.com/mensaje/resena-firestarters",
+    "content_hash": "b470166cab",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-3733710-FIRESTARTERS--b470166cab",
+    "first_seen": "Tue, 24 Nov 2026 20:40:21 GMT",
+    "last_updated": "Tue, 24 Nov 2026 20:40:21 GMT",
+    "pub_date": "Tue, 24 Nov 2026 20:40:21 GMT"
+  },
+  "https://store.steampowered.com/app/1751730/FIRE_AND_ASHES/": {
+    "curator_id": "9753302",
+    "game_title": "FIRE AND ASHES",
+    "title": "[Informativo] FIRE AND ASHES",
+    "verdict": "Informativo",
+    "link": "https://store.steampowered.com/app/1751730/FIRE_AND_ASHES/",
+    "description": "Survival horror en primera persona con gore, trama psicológica y uso del micrófono en unas 5 horas. Atmósfera e ideas llamativas, pero lastrado por bugs, control tosco y falta de pulido.",
+    "comments": "https://juegohispano.com/mensaje/resena-fire-and-ashes",
+    "content_hash": "15a5f36ecd",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-1751730-FIRE_AND_ASHES--15a5f36ecd",
+    "first_seen": "Tue, 24 Nov 2026 20:40:21 GMT",
+    "last_updated": "Tue, 24 Nov 2026 20:40:21 GMT",
+    "pub_date": "Tue, 24 Nov 2026 20:40:21 GMT"
   }
 }
