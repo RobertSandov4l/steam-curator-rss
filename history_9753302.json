@@ -1314,5 +1314,33 @@
     "first_seen": "Wed, 25 Nov 2026 03:40:18 GMT",
     "last_updated": "Wed, 25 Nov 2026 03:50:28 GMT",
     "pub_date": "Wed, 25 Nov 2026 03:50:28 GMT"
+  },
+  "https://store.steampowered.com/app/3624340/Strike_and_Pop/": {
+    "curator_id": "9753302",
+    "game_title": "Strike and Pop",
+    "title": "[Recomendado] Strike and Pop",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/3624340/Strike_and_Pop/",
+    "description": "Un juego de pelea con mecanicas simples pero muy efectivos. Es ideal para jugar con amigos, cualquiera puede tomar un control y disfrutar de este titulo. Solo cuenta con Multijugador local y no online",
+    "comments": "https://juegohispano.com/mensaje/resena-strike-and-pop",
+    "content_hash": "280caaa468",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-3624340-Strike_and_Pop--280caaa468",
+    "first_seen": "Wed, 25 Nov 2026 04:20:19 GMT",
+    "last_updated": "Wed, 25 Nov 2026 04:20:19 GMT",
+    "pub_date": "Wed, 25 Nov 2026 04:20:19 GMT"
+  },
+  "https://store.steampowered.com/app/2753740/TOREROWA/": {
+    "curator_id": "9753302",
+    "game_title": "TOREROWA",
+    "title": "[Informativo] TOREROWA",
+    "verdict": "Informativo",
+    "link": "https://store.steampowered.com/app/2753740/TOREROWA/",
+    "description": "Juego cooperativo multijugador muy entretenido y con variedad de opciones por hacer. Los controles son extraños para mover al personaje y algunas traducciones no están bien hechas.",
+    "comments": "",
+    "content_hash": "2320841dc0",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-2753740-TOREROWA--2320841dc0",
+    "first_seen": "Wed, 25 Nov 2026 04:20:19 GMT",
+    "last_updated": "Wed, 25 Nov 2026 04:20:19 GMT",
+    "pub_date": "Wed, 25 Nov 2026 04:20:19 GMT"
   }
 }

@@ -5,6 +5,21 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Recomendado] Strike and Pop</title>
+      <link>https://store.steampowered.com/app/3624340/Strike_and_Pop/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3624340-Strike_and_Pop--280caaa468</guid>
+      <pubDate>Wed, 25 Nov 2026 04:20:19 GMT</pubDate>
+      <description>Un juego de pelea con mecanicas simples pero muy efectivos. Es ideal para jugar con amigos, cualquiera puede tomar un control y disfrutar de este titulo. Solo cuenta con Multijugador local y no online</description>
+      <comments>https://juegohispano.com/mensaje/resena-strike-and-pop</comments>
+    </item>
+    <item>
+      <title>[Informativo] TOREROWA</title>
+      <link>https://store.steampowered.com/app/2753740/TOREROWA/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-2753740-TOREROWA--2320841dc0</guid>
+      <pubDate>Wed, 25 Nov 2026 04:20:19 GMT</pubDate>
+      <description>Juego cooperativo multijugador muy entretenido y con variedad de opciones por hacer. Los controles son extraños para mover al personaje y algunas traducciones no están bien hechas.</description>
+    </item>
+    <item>
       <title>[Informativo] Pancake Patrol</title>
       <link>https://store.steampowered.com/app/2587840/Pancake_Patrol/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-2587840-Pancake_Patrol--66b1dbdaba</guid>
@@ -223,22 +238,6 @@
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-5295330-Water_TD--773e02c73d</guid>
       <pubDate>Tue, 24 Nov 2026 03:30:24 GMT</pubDate>
       <description>Water TD es un juego muy entretenido, combina muy bien los géneros de defensa de torres con un sistema de progresión que incentiva a los jugadores a seguir jugando para terminar los niveles.</description>
-    </item>
-    <item>
-      <title>[Recomendado] JudgeSim</title>
-      <link>https://store.steampowered.com/app/2919660/JudgeSim/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-2919660-JudgeSim--287a6b29e0</guid>
-      <pubDate>Mon, 23 Nov 2026 23:50:17 GMT</pubDate>
-      <description>Revisa casos, examina pruebas y dicta tu sentencia en este simulador de juez donde cada caso es distinto y tus decisiones pesan en la historia. Muy recomendable.</description>
-      <comments>https://juegohispano.com/mensaje/resena-judgesim</comments>
-    </item>
-    <item>
-      <title>[Recomendado] Horripilant</title>
-      <link>https://store.steampowered.com/app/3525970/Horripilant/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3525970-Horripilant--2f603d68fe</guid>
-      <pubDate>Mon, 23 Nov 2026 22:00:23 GMT</pubDate>
-      <description>Horripilant combina mecánicas incrementales, acertijos y fantasía oscura con una estética retro destacable. Su combate automático es simple, pero su progresión y misterio atrapan.</description>
-      <comments>https://juegohispano.com/mensaje/resena-horripilant</comments>
     </item>
   </channel>
 </rss>
