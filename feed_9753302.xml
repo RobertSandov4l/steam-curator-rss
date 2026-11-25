@@ -5,6 +5,13 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Informativo] Pancake Patrol</title>
+      <link>https://store.steampowered.com/app/2587840/Pancake_Patrol/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-2587840-Pancake_Patrol--8f87462307</guid>
+      <pubDate>Wed, 25 Nov 2026 03:40:18 GMT</pubDate>
+      <description>Niveles de supervivencia con aumento de dificultad. Es bueno para entretenerse un tiempo pero falta agregar melodías en los escenarios para que sea más inmersivo.</description>
+    </item>
+    <item>
       <title>[Recomendado] Probably Stolen Cyberpunk Shopkeeper Sim</title>
       <link>https://store.steampowered.com/app/4348910/Probably_Stolen_Cyberpunk_Shopkeeper_Sim/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4348910-Probably_Stolen_Cyberpunk_Shopkeeper_Sim--48ff6947e6</guid>
@@ -232,14 +239,6 @@
       <pubDate>Mon, 23 Nov 2026 22:00:23 GMT</pubDate>
       <description>Horripilant combina mecánicas incrementales, acertijos y fantasía oscura con una estética retro destacable. Su combate automático es simple, pero su progresión y misterio atrapan.</description>
       <comments>https://juegohispano.com/mensaje/resena-horripilant</comments>
-    </item>
-    <item>
-      <title>[Recomendado] Wilderdark</title>
-      <link>https://store.steampowered.com/app/2735850/Wilderdark/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-2735850-Wilderdark--8419a76188</guid>
-      <pubDate>Mon, 23 Nov 2026 21:40:19 GMT</pubDate>
-      <description>Aventura de terror y supervivencia con gran ambientación y misterios entre dinosaurios infectados. Aunque el sigilo pierde tensión y las tareas se repiten, explorar la isla engancha.</description>
-      <comments>https://juegohispano.com/mensaje/resena-wilderdark</comments>
     </item>
   </channel>
 </rss>

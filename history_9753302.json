@@ -1300,5 +1300,19 @@
     "first_seen": "Tue, 24 Nov 2026 22:20:17 GMT",
     "last_updated": "Tue, 24 Nov 2026 22:20:17 GMT",
     "pub_date": "Tue, 24 Nov 2026 22:20:17 GMT"
+  },
+  "https://store.steampowered.com/app/2587840/Pancake_Patrol/": {
+    "curator_id": "9753302",
+    "game_title": "Pancake Patrol",
+    "title": "[Informativo] Pancake Patrol",
+    "verdict": "Informativo",
+    "link": "https://store.steampowered.com/app/2587840/Pancake_Patrol/",
+    "description": "Niveles de supervivencia con aumento de dificultad. Es bueno para entretenerse un tiempo pero falta agregar melodías en los escenarios para que sea más inmersivo.",
+    "comments": "",
+    "content_hash": "8f87462307",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-2587840-Pancake_Patrol--8f87462307",
+    "first_seen": "Wed, 25 Nov 2026 03:40:18 GMT",
+    "last_updated": "Wed, 25 Nov 2026 03:40:18 GMT",
+    "pub_date": "Wed, 25 Nov 2026 03:40:18 GMT"
   }
 }
