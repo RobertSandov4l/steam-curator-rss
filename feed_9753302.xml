@@ -5,6 +5,14 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Recomendado] ORDER 13</title>
+      <link>https://store.steampowered.com/app/2259310/ORDER_13/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-2259310-ORDER_13--7f0f239acf</guid>
+      <pubDate>Thu, 26 Nov 2026 21:50:17 GMT</pubDate>
+      <description>Simulador de almacén con terror donde preparas pedidos, esquivas monstruos y cuidas a tu gato. Aunque se vuelve repetitivo y deja dudas en su historia, su mezcla de tensión y humor entretiene.</description>
+      <comments>https://juegohispano.com/mensaje/resena-order-13</comments>
+    </item>
+    <item>
       <title>[Recomendado] Planted</title>
       <link>https://store.steampowered.com/app/3448000/Planted/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3448000-Planted--58dd5e54ea</guid>
@@ -230,14 +238,6 @@
       <pubDate>Tue, 24 Nov 2026 21:10:19 GMT</pubDate>
       <description>Aventura de exploración onírica en primera persona con misterio lovecraftiano, decisiones y 4 finales. Arte surrealista y banda sonora envolvente, pero con ritmo pausado y poca guía.</description>
       <comments>https://juegohispano.com/mensaje/resena-hypnos</comments>
-    </item>
-    <item>
-      <title>[Recomendado] HR Human Remains</title>
-      <link>https://store.steampowered.com/app/3541630/HR_Human_Remains/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3541630-HR_Human_Remains--37b717912c</guid>
-      <pubDate>Tue, 24 Nov 2026 20:50:18 GMT</pubDate>
-      <description>Terror psicológico en primera persona con puzles, minijuegos y rutina laboral bajo demonios. Gran atmósfera, humor negro y decisiones con varios finales.</description>
-      <comments>https://juegohispano.com/mensaje/resena-hr-human-remains</comments>
     </item>
   </channel>
 </rss>

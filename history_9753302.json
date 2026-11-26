@@ -1468,5 +1468,19 @@
     "first_seen": "Thu, 26 Nov 2026 21:10:17 GMT",
     "last_updated": "Thu, 26 Nov 2026 21:10:17 GMT",
     "pub_date": "Thu, 26 Nov 2026 21:10:17 GMT"
+  },
+  "https://store.steampowered.com/app/2259310/ORDER_13/": {
+    "curator_id": "9753302",
+    "game_title": "ORDER 13",
+    "title": "[Recomendado] ORDER 13",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/2259310/ORDER_13/",
+    "description": "Simulador de almacén con terror donde preparas pedidos, esquivas monstruos y cuidas a tu gato. Aunque se vuelve repetitivo y deja dudas en su historia, su mezcla de tensión y humor entretiene.",
+    "comments": "https://juegohispano.com/mensaje/resena-order-13",
+    "content_hash": "7f0f239acf",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-2259310-ORDER_13--7f0f239acf",
+    "first_seen": "Thu, 26 Nov 2026 21:50:17 GMT",
+    "last_updated": "Thu, 26 Nov 2026 21:50:17 GMT",
+    "pub_date": "Thu, 26 Nov 2026 21:50:17 GMT"
   }
 }
