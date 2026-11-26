@@ -1440,5 +1440,19 @@
     "first_seen": "Thu, 26 Nov 2026 19:00:23 GMT",
     "last_updated": "Thu, 26 Nov 2026 19:00:23 GMT",
     "pub_date": "Thu, 26 Nov 2026 19:00:23 GMT"
+  },
+  "https://store.steampowered.com/app/3223000/Roombattle/": {
+    "curator_id": "9753302",
+    "game_title": "Roombattle",
+    "title": "[Recomendado] Roombattle",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/3223000/Roombattle/",
+    "description": "Caótico y divertido juego de fiesta con controles simples, modos variados y miles de opciones para personalizar tu aspiradora. Ideal para jugar en familia o con amigos.",
+    "comments": "https://juegohispano.com/mensaje/resena-roombattle",
+    "content_hash": "d3e0f1ba31",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-3223000-Roombattle--d3e0f1ba31",
+    "first_seen": "Thu, 26 Nov 2026 19:40:26 GMT",
+    "last_updated": "Thu, 26 Nov 2026 19:40:26 GMT",
+    "pub_date": "Thu, 26 Nov 2026 19:40:26 GMT"
   }
 }

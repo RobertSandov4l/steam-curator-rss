@@ -5,6 +5,14 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Recomendado] Roombattle</title>
+      <link>https://store.steampowered.com/app/3223000/Roombattle/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3223000-Roombattle--d3e0f1ba31</guid>
+      <pubDate>Thu, 26 Nov 2026 19:40:26 GMT</pubDate>
+      <description>Caótico y divertido juego de fiesta con controles simples, modos variados y miles de opciones para personalizar tu aspiradora. Ideal para jugar en familia o con amigos.</description>
+      <comments>https://juegohispano.com/mensaje/resena-roombattle</comments>
+    </item>
+    <item>
       <title>[Informativo] JOHN GLEEP</title>
       <link>https://store.steampowered.com/app/4739500/JOHN_GLEEP/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4739500-JOHN_GLEEP--66468a90d5</guid>
@@ -230,14 +238,6 @@
       <pubDate>Tue, 24 Nov 2026 20:50:18 GMT</pubDate>
       <description>Gestión y automatización incremental de un imperio con conquista, colonización y árbol de avances. Buena base y sonido relajante, pero lastrado por mecánicas desbloqueables incompletas.</description>
       <comments>https://juegohispano.com/mensaje/resena-how-empires-work</comments>
-    </item>
-    <item>
-      <title>[Recomendado] Hillthorn</title>
-      <link>https://store.steampowered.com/app/3504050/Hillthorn/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3504050-Hillthorn--c3c238363e</guid>
-      <pubDate>Tue, 24 Nov 2026 20:50:18 GMT</pubDate>
-      <description>Simulador de investigación noir sin diálogos donde resuelves desapariciones mediante cartas y gestión del tiempo. Arte oscuro ilustrado y gran atmósfera sonora, pese a una interfaz cargada.</description>
-      <comments>https://juegohispano.com/mensaje/resena-hillthorn</comments>
     </item>
   </channel>
 </rss>
