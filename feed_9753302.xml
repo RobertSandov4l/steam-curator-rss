@@ -5,6 +5,14 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Recomendado] Planted</title>
+      <link>https://store.steampowered.com/app/3448000/Planted/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3448000-Planted--58dd5e54ea</guid>
+      <pubDate>Thu, 26 Nov 2026 21:10:17 GMT</pubDate>
+      <description>Planted! es un juego bastante interesante, ideal para pasar el rato con los amigos, donde las risas no van a faltar. Bastante recomendable jugarlo en grupo, en solitario no cumple las expectativas.</description>
+      <comments>https://juegohispano.com/mensaje/resena-de-planted</comments>
+    </item>
+    <item>
       <title>[Recomendado] Roombattle</title>
       <link>https://store.steampowered.com/app/3223000/Roombattle/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3223000-Roombattle--d3e0f1ba31</guid>
@@ -230,14 +238,6 @@
       <pubDate>Tue, 24 Nov 2026 20:50:18 GMT</pubDate>
       <description>Terror psicológico en primera persona con puzles, minijuegos y rutina laboral bajo demonios. Gran atmósfera, humor negro y decisiones con varios finales.</description>
       <comments>https://juegohispano.com/mensaje/resena-hr-human-remains</comments>
-    </item>
-    <item>
-      <title>[Informativo] How Empires Work</title>
-      <link>https://store.steampowered.com/app/4663730/How_Empires_Work/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4663730-How_Empires_Work--670f903baa</guid>
-      <pubDate>Tue, 24 Nov 2026 20:50:18 GMT</pubDate>
-      <description>Gestión y automatización incremental de un imperio con conquista, colonización y árbol de avances. Buena base y sonido relajante, pero lastrado por mecánicas desbloqueables incompletas.</description>
-      <comments>https://juegohispano.com/mensaje/resena-how-empires-work</comments>
     </item>
   </channel>
 </rss>

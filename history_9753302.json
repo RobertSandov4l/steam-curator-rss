@@ -1454,5 +1454,19 @@
     "first_seen": "Thu, 26 Nov 2026 19:40:26 GMT",
     "last_updated": "Thu, 26 Nov 2026 19:40:26 GMT",
     "pub_date": "Thu, 26 Nov 2026 19:40:26 GMT"
+  },
+  "https://store.steampowered.com/app/3448000/Planted/": {
+    "curator_id": "9753302",
+    "game_title": "Planted",
+    "title": "[Recomendado] Planted",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/3448000/Planted/",
+    "description": "Planted! es un juego bastante interesante, ideal para pasar el rato con los amigos, donde las risas no van a faltar. Bastante recomendable jugarlo en grupo, en solitario no cumple las expectativas.",
+    "comments": "https://juegohispano.com/mensaje/resena-de-planted",
+    "content_hash": "58dd5e54ea",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-3448000-Planted--58dd5e54ea",
+    "first_seen": "Thu, 26 Nov 2026 21:10:17 GMT",
+    "last_updated": "Thu, 26 Nov 2026 21:10:17 GMT",
+    "pub_date": "Thu, 26 Nov 2026 21:10:17 GMT"
   }
 }
