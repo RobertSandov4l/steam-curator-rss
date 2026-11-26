@@ -5,6 +5,13 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Recomendado] Nova Survivors</title>
+      <link>https://store.steampowered.com/app/4982990/Nova_Survivors/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4982990-Nova_Survivors--de97bdec30</guid>
+      <pubDate>Thu, 26 Nov 2026 02:10:28 GMT</pubDate>
+      <description>Muy frenético y divertido. Tiene una gran gamma de naves, por lo que cada jugador puede encontrar su manera de jugar. Sus jefes son muy desafiantes y la banda sonora encaja muy bien al juego.</description>
+    </item>
+    <item>
       <title>[Recomendado] Strike and Pop</title>
       <link>https://store.steampowered.com/app/3624340/Strike_and_Pop/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3624340-Strike_and_Pop--280caaa468</guid>
@@ -231,13 +238,6 @@
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-5081060-Just_Up_2D_Platformer--1dbe611740</guid>
       <pubDate>Tue, 24 Nov 2026 03:50:18 GMT</pubDate>
       <description>Un juego muy desafiante con controles reducidos. El grado de dificultad va elevándose mientras llegas a la cima pero al alcanzar un punto de control da una sensación gratificante.</description>
-    </item>
-    <item>
-      <title>[Recomendado] Water TD</title>
-      <link>https://store.steampowered.com/app/5295330/Water_TD/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-5295330-Water_TD--773e02c73d</guid>
-      <pubDate>Tue, 24 Nov 2026 03:30:24 GMT</pubDate>
-      <description>Water TD es un juego muy entretenido, combina muy bien los géneros de defensa de torres con un sistema de progresión que incentiva a los jugadores a seguir jugando para terminar los niveles.</description>
     </item>
   </channel>
 </rss>
