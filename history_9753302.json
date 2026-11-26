@@ -1384,5 +1384,19 @@
     "first_seen": "Thu, 26 Nov 2026 16:50:19 GMT",
     "last_updated": "Thu, 26 Nov 2026 16:50:19 GMT",
     "pub_date": "Thu, 26 Nov 2026 16:50:19 GMT"
+  },
+  "https://store.steampowered.com/app/4004820/Fútbol_Freestyle_2/": {
+    "curator_id": "9753302",
+    "game_title": "Fútbol Freestyle 2",
+    "title": "[Recomendado] Fútbol Freestyle 2",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/4004820/Fútbol_Freestyle_2/",
+    "description": "FreeStyle Football 2 combina fútbol callejero 5 contra 5, estética manhwa y habilidades tipo MOBA con un modo campaña sólido y 60 FPS fluidos. Gran propuesta arcade pese a cierta confusión visual.",
+    "comments": "https://juegohispano.com/mensaje/resena-freestyle-football-2",
+    "content_hash": "c3c268b70e",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-4004820-F-tbol_Freestyle_2--c3c268b70e",
+    "first_seen": "Thu, 26 Nov 2026 18:00:27 GMT",
+    "last_updated": "Thu, 26 Nov 2026 18:00:27 GMT",
+    "pub_date": "Thu, 26 Nov 2026 18:00:27 GMT"
   }
 }

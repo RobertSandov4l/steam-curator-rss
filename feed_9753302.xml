@@ -5,6 +5,14 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Recomendado] Fútbol Freestyle 2</title>
+      <link>https://store.steampowered.com/app/4004820/Fútbol_Freestyle_2/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4004820-F-tbol_Freestyle_2--c3c268b70e</guid>
+      <pubDate>Thu, 26 Nov 2026 18:00:27 GMT</pubDate>
+      <description>FreeStyle Football 2 combina fútbol callejero 5 contra 5, estética manhwa y habilidades tipo MOBA con un modo campaña sólido y 60 FPS fluidos. Gran propuesta arcade pese a cierta confusión visual.</description>
+      <comments>https://juegohispano.com/mensaje/resena-freestyle-football-2</comments>
+    </item>
+    <item>
       <title>[Recomendado] Night of the Idle Horde</title>
       <link>https://store.steampowered.com/app/4775430/Night_of_the_Idle_Horde/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4775430-Night_of_the_Idle_Horde--08892e4365</guid>
@@ -230,14 +238,6 @@
       <pubDate>Tue, 24 Nov 2026 20:40:21 GMT</pubDate>
       <description>Táctica por turnos sin dados con cartas, gestión de asentamiento y dioramas invernales. Profundo y envolvente si engancha, pero abrumador al inicio y con cargas largas y fallos online.</description>
       <comments>https://juegohispano.com/mensaje/resena-frosthaven</comments>
-    </item>
-    <item>
-      <title>[Recomendado] FIRESTARTERS</title>
-      <link>https://store.steampowered.com/app/3733710/FIRESTARTERS/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-3733710-FIRESTARTERS--b470166cab</guid>
-      <pubDate>Tue, 24 Nov 2026 20:40:21 GMT</pubDate>
-      <description>Shooter en primera persona frenético con patines, esquivas, mejoras y estética anime ciberpunk. Divertido y fluido en la arena, pero sin traducción al español y con pocos enemigos al inicio.</description>
-      <comments>https://juegohispano.com/mensaje/resena-firestarters</comments>
     </item>
   </channel>
 </rss>
