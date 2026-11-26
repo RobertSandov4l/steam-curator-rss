@@ -1370,5 +1370,19 @@
     "first_seen": "Thu, 26 Nov 2026 02:50:19 GMT",
     "last_updated": "Thu, 26 Nov 2026 02:50:19 GMT",
     "pub_date": "Thu, 26 Nov 2026 02:50:19 GMT"
+  },
+  "https://store.steampowered.com/app/4775430/Night_of_the_Idle_Horde/": {
+    "curator_id": "9753302",
+    "game_title": "Night of the Idle Horde",
+    "title": "[Recomendado] Night of the Idle Horde",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/4775430/Night_of_the_Idle_Horde/",
+    "description": "Un idle de zombis muy entretenido que corre en pantalla completa o en tu barra de tareas. Divertido para jugar mientras trabajas, aunque pide ajustar el volumen y pulir algunos bugs.",
+    "comments": "https://juegohispano.com/mensaje/resena-night-of-the-idle-horde",
+    "content_hash": "08892e4365",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-4775430-Night_of_the_Idle_Horde--08892e4365",
+    "first_seen": "Thu, 26 Nov 2026 16:50:19 GMT",
+    "last_updated": "Thu, 26 Nov 2026 16:50:19 GMT",
+    "pub_date": "Thu, 26 Nov 2026 16:50:19 GMT"
   }
 }

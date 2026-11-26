@@ -5,6 +5,14 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Recomendado] Night of the Idle Horde</title>
+      <link>https://store.steampowered.com/app/4775430/Night_of_the_Idle_Horde/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4775430-Night_of_the_Idle_Horde--08892e4365</guid>
+      <pubDate>Thu, 26 Nov 2026 16:50:19 GMT</pubDate>
+      <description>Un idle de zombis muy entretenido que corre en pantalla completa o en tu barra de tareas. Divertido para jugar mientras trabajas, aunque pide ajustar el volumen y pulir algunos bugs.</description>
+      <comments>https://juegohispano.com/mensaje/resena-night-of-the-idle-horde</comments>
+    </item>
+    <item>
       <title>[Informativo] Mythawake</title>
       <link>https://store.steampowered.com/app/5439650/Mythawake/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-5439650-Mythawake--c93298b5e9</guid>
@@ -230,14 +238,6 @@
       <pubDate>Tue, 24 Nov 2026 20:40:21 GMT</pubDate>
       <description>Shooter en primera persona frenético con patines, esquivas, mejoras y estética anime ciberpunk. Divertido y fluido en la arena, pero sin traducción al español y con pocos enemigos al inicio.</description>
       <comments>https://juegohispano.com/mensaje/resena-firestarters</comments>
-    </item>
-    <item>
-      <title>[Informativo] FIRE AND ASHES</title>
-      <link>https://store.steampowered.com/app/1751730/FIRE_AND_ASHES/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-1751730-FIRE_AND_ASHES--15a5f36ecd</guid>
-      <pubDate>Tue, 24 Nov 2026 20:40:21 GMT</pubDate>
-      <description>Survival horror en primera persona con gore, trama psicológica y uso del micrófono en unas 5 horas. Atmósfera e ideas llamativas, pero lastrado por bugs, control tosco y falta de pulido.</description>
-      <comments>https://juegohispano.com/mensaje/resena-fire-and-ashes</comments>
     </item>
   </channel>
 </rss>
