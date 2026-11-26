@@ -5,6 +5,14 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Informativo] JOHN GLEEP</title>
+      <link>https://store.steampowered.com/app/4739500/JOHN_GLEEP/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4739500-JOHN_GLEEP--66468a90d5</guid>
+      <pubDate>Thu, 26 Nov 2026 19:00:23 GMT</pubDate>
+      <description>Entretenida mezcla de casino espacial y gestión con gran banda sonora, pero satura la pantalla con demasiados minijuegos simultáneos. Ideal solo si buscas estrategia y caos constante.</description>
+      <comments>https://juegohispano.com/mensaje/resena-john-gleep</comments>
+    </item>
+    <item>
       <title>[Recomendado] Hair Removal Salon Simulator</title>
       <link>https://store.steampowered.com/app/4351380/Hair_Removal_Salon_Simulator/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4351380-Hair_Removal_Salon_Simulator--3a40b62519</guid>
@@ -230,14 +238,6 @@
       <pubDate>Tue, 24 Nov 2026 20:50:18 GMT</pubDate>
       <description>Simulador de investigación noir sin diálogos donde resuelves desapariciones mediante cartas y gestión del tiempo. Arte oscuro ilustrado y gran atmósfera sonora, pese a una interfaz cargada.</description>
       <comments>https://juegohispano.com/mensaje/resena-hillthorn</comments>
-    </item>
-    <item>
-      <title>[Recomendado] Heroes of Science and Fiction</title>
-      <link>https://store.steampowered.com/app/2147380/Heroes_of_Science_and_Fiction/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-2147380-Heroes_of_Science_and_Fiction--ca5a72f55c</guid>
-      <pubDate>Tue, 24 Nov 2026 20:50:18 GMT</pubDate>
-      <description>Estrategia por turnos espacial al estilo Heroes of Might and Magic con 5 facciones, exploración y gestión. Adictivo y táctico, pero con turnos lentos e historia sencilla.</description>
-      <comments>https://juegohispano.com/mensaje/resena-heroes-of-science-and-fiction-dlc-xenauri-faction</comments>
     </item>
   </channel>
 </rss>
