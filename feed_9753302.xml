@@ -5,6 +5,14 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Recomendado] Rekindled Cozy Tavern Life</title>
+      <link>https://store.steampowered.com/app/4156500/Rekindled_Cozy_Tavern_Life/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4156500-Rekindled_Cozy_Tavern_Life--651e3d9171</guid>
+      <pubDate>Thu, 26 Nov 2026 18:10:28 GMT</pubDate>
+      <description>Rekindled: Cozy Tavern Life ofrece una gestión relajante de taberna en un amplio mundo abierto medieval, con libertad culinaria, decoración y cooperativo. Aún está verde, pero es muy disfrutable.</description>
+      <comments>https://juegohispano.com/mensaje/resena-rekindled-cozy-tavern-life</comments>
+    </item>
+    <item>
       <title>[Recomendado] Fútbol Freestyle 2</title>
       <link>https://store.steampowered.com/app/4004820/Fútbol_Freestyle_2/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4004820-F-tbol_Freestyle_2--c3c268b70e</guid>
@@ -230,14 +238,6 @@
       <pubDate>Tue, 24 Nov 2026 20:40:21 GMT</pubDate>
       <description>Acción y plataformas 2D en el Japón del siglo XVII con combate ágil y jefes exigentes. Divertido y visualmente claro, pero con historia plana, retrasos de cámara y bugs de progreso.</description>
       <comments>https://juegohispano.com/mensaje/resena-heart-abyss</comments>
-    </item>
-    <item>
-      <title>[Recomendado] Frosthaven</title>
-      <link>https://store.steampowered.com/app/2347080/Frosthaven/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-2347080-Frosthaven--a227690e54</guid>
-      <pubDate>Tue, 24 Nov 2026 20:40:21 GMT</pubDate>
-      <description>Táctica por turnos sin dados con cartas, gestión de asentamiento y dioramas invernales. Profundo y envolvente si engancha, pero abrumador al inicio y con cargas largas y fallos online.</description>
-      <comments>https://juegohispano.com/mensaje/resena-frosthaven</comments>
     </item>
   </channel>
 </rss>
