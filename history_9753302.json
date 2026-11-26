@@ -1356,5 +1356,19 @@
     "first_seen": "Thu, 26 Nov 2026 02:10:28 GMT",
     "last_updated": "Thu, 26 Nov 2026 02:20:18 GMT",
     "pub_date": "Thu, 26 Nov 2026 02:20:18 GMT"
+  },
+  "https://store.steampowered.com/app/5439650/Mythawake/": {
+    "curator_id": "9753302",
+    "game_title": "Mythawake",
+    "title": "[Informativo] Mythawake",
+    "verdict": "Informativo",
+    "link": "https://store.steampowered.com/app/5439650/Mythawake/",
+    "description": "Un FPS con niveles desafiantes. Su grado de dificultad cuesta un poco para que se adapten a los personajes. El modo cooperativo aumenta mucho su rejugabilidad.",
+    "comments": "",
+    "content_hash": "c93298b5e9",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-5439650-Mythawake--c93298b5e9",
+    "first_seen": "Thu, 26 Nov 2026 02:50:19 GMT",
+    "last_updated": "Thu, 26 Nov 2026 02:50:19 GMT",
+    "pub_date": "Thu, 26 Nov 2026 02:50:19 GMT"
   }
 }

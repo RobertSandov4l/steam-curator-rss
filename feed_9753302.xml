@@ -5,6 +5,13 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Informativo] Mythawake</title>
+      <link>https://store.steampowered.com/app/5439650/Mythawake/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-5439650-Mythawake--c93298b5e9</guid>
+      <pubDate>Thu, 26 Nov 2026 02:50:19 GMT</pubDate>
+      <description>Un FPS con niveles desafiantes. Su grado de dificultad cuesta un poco para que se adapten a los personajes. El modo cooperativo aumenta mucho su rejugabilidad.</description>
+    </item>
+    <item>
       <title>[Recomendado] Nova Survivors</title>
       <link>https://store.steampowered.com/app/4982990/Nova_Survivors/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-4982990-Nova_Survivors--73491f9e91</guid>
@@ -231,13 +238,6 @@
       <pubDate>Tue, 24 Nov 2026 20:40:21 GMT</pubDate>
       <description>Survival horror en primera persona con gore, trama psicológica y uso del micrófono en unas 5 horas. Atmósfera e ideas llamativas, pero lastrado por bugs, control tosco y falta de pulido.</description>
       <comments>https://juegohispano.com/mensaje/resena-fire-and-ashes</comments>
-    </item>
-    <item>
-      <title>[Recomendado] Just Up 2D Platformer</title>
-      <link>https://store.steampowered.com/app/5081060/Just_Up_2D_Platformer/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-5081060-Just_Up_2D_Platformer--1dbe611740</guid>
-      <pubDate>Tue, 24 Nov 2026 03:50:18 GMT</pubDate>
-      <description>Un juego muy desafiante con controles reducidos. El grado de dificultad va elevándose mientras llegas a la cima pero al alcanzar un punto de control da una sensación gratificante.</description>
     </item>
   </channel>
 </rss>
