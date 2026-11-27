@@ -1482,5 +1482,19 @@
     "first_seen": "Thu, 26 Nov 2026 21:50:17 GMT",
     "last_updated": "Thu, 26 Nov 2026 21:50:17 GMT",
     "pub_date": "Thu, 26 Nov 2026 21:50:17 GMT"
+  },
+  "https://store.steampowered.com/app/2920220/Terrible_Lizards/": {
+    "curator_id": "9753302",
+    "game_title": "Terrible Lizards",
+    "title": "[Recomendado] Terrible Lizards",
+    "verdict": "Recomendado",
+    "link": "https://store.steampowered.com/app/2920220/Terrible_Lizards/",
+    "description": "Uir es nuestra mecanica principal, pero con estilo. Un juego que combina terror con parkour, un buen complemento que junto a su excelente ambientación logran entregar una experiencia completa.",
+    "comments": "https://juegohispano.com/mensaje/resena-terrible-lizards",
+    "content_hash": "fef8d6f848",
+    "guid": "steam-curator-9753302-https-store-steampowered-com-app-2920220-Terrible_Lizards--fef8d6f848",
+    "first_seen": "Fri, 27 Nov 2026 05:10:19 GMT",
+    "last_updated": "Fri, 27 Nov 2026 05:10:19 GMT",
+    "pub_date": "Fri, 27 Nov 2026 05:10:19 GMT"
   }
 }

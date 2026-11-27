@@ -5,6 +5,14 @@
     <link>https://store.steampowered.com/curator/9753302/</link>
     <description>Feed RSS individual para el mentor de Steam 9753302.</description>
     <item>
+      <title>[Recomendado] Terrible Lizards</title>
+      <link>https://store.steampowered.com/app/2920220/Terrible_Lizards/</link>
+      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-2920220-Terrible_Lizards--fef8d6f848</guid>
+      <pubDate>Fri, 27 Nov 2026 05:10:19 GMT</pubDate>
+      <description>Uir es nuestra mecanica principal, pero con estilo. Un juego que combina terror con parkour, un buen complemento que junto a su excelente ambientación logran entregar una experiencia completa.</description>
+      <comments>https://juegohispano.com/mensaje/resena-terrible-lizards</comments>
+    </item>
+    <item>
       <title>[Recomendado] ORDER 13</title>
       <link>https://store.steampowered.com/app/2259310/ORDER_13/</link>
       <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-2259310-ORDER_13--7f0f239acf</guid>
@@ -230,14 +238,6 @@
       <pubDate>Tue, 24 Nov 2026 21:10:19 GMT</pubDate>
       <description>Exploración y campamento sin prisas con vehículo y perro personalizables. Relajante y sencillo, pero con conducción rígida, cámara fija al auto, mapa pequeño y zona de pruebas visible.</description>
       <comments>https://juegohispano.com/mensaje/resena-i-know-a-spot</comments>
-    </item>
-    <item>
-      <title>[Recomendado] HYPNOS</title>
-      <link>https://store.steampowered.com/app/2861210/HYPNOS/</link>
-      <guid isPermaLink="false">steam-curator-9753302-https-store-steampowered-com-app-2861210-HYPNOS--0ef0f67d5e</guid>
-      <pubDate>Tue, 24 Nov 2026 21:10:19 GMT</pubDate>
-      <description>Aventura de exploración onírica en primera persona con misterio lovecraftiano, decisiones y 4 finales. Arte surrealista y banda sonora envolvente, pero con ritmo pausado y poca guía.</description>
-      <comments>https://juegohispano.com/mensaje/resena-hypnos</comments>
     </item>
   </channel>
 </rss>
